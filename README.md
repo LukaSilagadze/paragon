@@ -1,1 +1,1 @@
-# GreenSpace
+# Paragon - Landscape for Life
