@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | GreenOasis Gardens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">PARAGON</a>
+                <span>Landscape for Life</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Explore our recent projects and discover the transformation possibilities for your outdoor space</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="urban">Urban Gardens</button>
+                <button class="filter-btn" data-filter="family">Family Backyards</button>
+                <button class="filter-btn" data-filter="roof">Roof Terraces</button>
+                <button class="filter-btn" data-filter="country">Country Gardens</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid-section">
+        <div class="container">
+            <div class="portfolio-items">
+                <!-- Urban Garden Projects -->
+                <div class="portfolio-item" data-category="urban">
+                    <div class="portfolio-image">
+                        <!-- Placeholder for project image -->
+                        <div class="image-placeholder">Urban Oasis Project</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Downtown Sanctuary</h3>
+                        <p>Urban Garden • City Center</p>
+                        <p class="project-description">Transformed a compact urban space into a lush, multi-level garden with integrated seating and water feature.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="urban">
+                    <div class="portfolio-image">
+                        <!-- Placeholder for project image -->
+                        <div class="image-placeholder">Modern Courtyard</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Modern Courtyard</h3>
+                        <p>Urban Garden • Downtown</p>
+                        <p class="project-description">Clean lines and minimalist planting create a serene escape in the heart of the city.</p>
+                    </div>
+                </div>
+
+                <!-- Family Backyard Projects -->
+                <div class="portfolio-item" data-category="family">
+                    <div class="portfolio-image">
+                        <!-- Placeholder for project image -->
+                        <div class="image-placeholder">Family Retreat</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Suburban Family Haven</h3>
+                        <p>Family Backyard • Greenville</p>
+                        <p class="project-description">Created multiple zones for entertainment, play, and relaxation in a spacious suburban yard.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="family">
+                    <div class="portfolio-image">
+                        <!-- Placeholder for project image -->
+                        <div class="image-placeholder">Pool & Patio</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Poolside Paradise</h3>
+                        <p>Family Backyard • Lakeside</p>
+                        <p class="project-description">Integrated pool area with natural stone patio and tropical planting for year-round enjoyment.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="family">
+                    <div class="portfolio-image">
+                        <!-- Placeholder for project image -->
+                        <div class="image-placeholder">Play & Relax</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Playful Retreat</h3>
+                        <p>Family Backyard • Hillcrest</p>
+                        <p class="project-description">Designed with both children and adults in mind, featuring play areas and comfortable seating zones.</p>
+                    </div>
+                </div>
+
+                <!-- Roof Terrace Projects -->
+                <div class="portfolio-item" data-category="roof">
+                    <div class="portfolio-image">
+                        <!-- Placeholder for project image -->
+                        <div class="image-placeholder">Sky Garden</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Penthouse Sky Garden</h3>
+                        <p>Roof Terrace • Downtown Highrise</p>
+                        <p class="project-description">Elevated urban oasis with panoramic views, built-in seating, and drought-tolerant planting.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="roof">
+                    <div class="portfolio-image">
+                        <!-- Placeholder for project image -->
+                        <div class="image-placeholder">Urban Rooftop</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Entertainment Terrace</h3>
+                        <p>Roof Terrace • City Center</p>
+                        <p class="project-description">Multi-functional space featuring outdoor kitchen, dining area, and green walls for privacy.</p>
+                    </div>
+                </div>
+
+                <!-- Country Garden Projects -->
+                <div class="portfolio-item" data-category="country">
+                    <div class="portfolio-image">
+                        <!-- Placeholder for project image -->
+                        <div class="image-placeholder">Country Estate</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>English Country Garden</h3>
+                        <p>Country Garden • River Valley</p>
+                        <p class="project-description">Traditional mixed borders, rose arches, and meandering pathways through established woodland.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="country">
+                    <div class="portfolio-image">
+                        <!-- Placeholder for project image -->
+                        <div class="image-placeholder">Meadow Garden</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Wildflower Meadow</h3>
+                        <p>Country Garden • Hillside Property</p>
+                        <p class="project-description">Naturalistic planting scheme that blends seamlessly with the surrounding countryside.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="country">
+                    <div class="portfolio-image">
+                        <!-- Placeholder for project image -->
+                        <div class="image-placeholder">Orchard Garden</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Fruitful Landscape</h3>
+                        <p>Country Garden • Farmhouse</p>
+                        <p class="project-description">Productive garden combining ornamental planting with fruit trees and vegetable beds.</p>
+                    </div>
+                </div>
+
+                <!-- Mixed Category Projects -->
+                <div class="portfolio-item" data-category="urban family">
+                    <div class="portfolio-image">
+                        <!-- Placeholder for project image -->
+                        <div class="image-placeholder">Townhouse Garden</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Family Townhouse Garden</h3>
+                        <p>Urban & Family • City Suburbs</p>
+                        <p class="project-description">Smart design maximizes small space for both children's play and adult relaxation.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="roof urban">
+                    <div class="portfolio-image">
+                        <!-- Placeholder for project image -->
+                        <div class="image-placeholder">Modern Rooftop</div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Architectural Terrace</h3>
+                        <p>Roof Terrace • Urban</p>
+                        <p class="project-description">Bold geometric design with architectural plants and custom-built furniture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details Modal -->
+    <div class="modal" id="project-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-images">
+                    <!-- Placeholder for modal images -->
+                    <div class="image-placeholder">Project Gallery</div>
+                </div>
+                <div class="modal-info">
+                    <h2 id="modal-title">Project Title</h2>
+                    <p class="modal-location" id="modal-location">Location</p>
+                    <p class="modal-description" id="modal-description">Project description will appear here.</p>
+                    <div class="modal-features">
+                        <h3>Project Features</h3>
+                        <ul id="modal-features">
+                            <!-- Features will be populated by JavaScript -->
+                        </ul>
+                    </div>
+                    <div class="modal-services">
+                        <h3>Services Provided</h3>
+                        <div class="services-tags" id="modal-services">
+                            <!-- Services will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Inspired by our work?</h2>
+            <p>Let's discuss how we can transform your outdoor space</p>
+            <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>GreenOasis Gardens</h3>
+                    <p>Creating beautiful, sustainable outdoor spaces that connect people with nature through thoughtful design and expert craftsmanship.</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>+1 (555) 123-4567</p>
+                    <p>info@greenoasisgardens.com</p>
+                    <p>123 Garden Lane, Greenville</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Pinterest">Pinterest</a>
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GreenOasis Gardens. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
