@@ -265,6 +265,7 @@
 /* Map Section */
 .map-section {
     padding: 80px 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -276,6 +277,8 @@
 .map-container {
     display: flex;
     column-gap: 40px;
+    width: 100%;
+    max-width: 1100px;
     border-radius: 12px;
     overflow: hidden;
     display: flex;
@@ -293,13 +296,10 @@
     text-align: center;
 }
 
-
 .map-content h3,
 .map-content p {
     color: var(--text-color);
 }
-
-
 
 .map-content h3 {
     margin-bottom: 1rem;
@@ -315,11 +315,21 @@
     margin-top: 2rem;
 }
 
-.iframe {
-    border: none;
-    width: 600px;
-    height: 450px;
-    border-radius: 8px;
+.office_map {
+    background: #FFFFFF;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.office_map iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
 }
 
 /* FAQ Section */
