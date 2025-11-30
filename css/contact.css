@@ -265,61 +265,45 @@
 /* Map Section */
 .map-section {
     padding: 80px 0;
-    background-color: var(--light-background);
-}
-
-.map-section h2 {
-    text-align: center;
-    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    height: 600px;
+    background-color: var(--border-color);
 }
 
 .map-container {
+    display: flex;
+    column-gap: 40px;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: var(--shadow);
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .map-placeholder {
     height: 400px;
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
-    position: relative; /* needed so iframe and overlay can be absolutely positioned */
 }
 
-/* Make embedded iframe fill the map container */
-.map-placeholder iframe {
-    position: absolute;
-    inset: 0; /* top:0; right:0; bottom:0; left:0; */
-    width: 100%;
-    height: 100%;
-    border: 0;
-    display: block;
-}
-
-/* Position the map content overlay centered above the iframe */
-.map-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    text-align: center;
-    padding: 20px;
-    max-width: 520px;
-}
 
 .map-content h3,
 .map-content p {
-    color: white;
+    color: var(--text-color);
 }
+
+
 
 .map-content h3 {
     margin-bottom: 1rem;
-    color: white;
+    color: var(--text-color);
 }
 
 .map-content p {
@@ -329,6 +313,13 @@
 
 .map-directions {
     margin-top: 2rem;
+}
+
+.iframe {
+    border: none;
+    width: 600px;
+    height: 450px;
+    border-radius: 8px;
 }
 
 /* FAQ Section */
