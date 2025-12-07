@@ -73,10 +73,30 @@
     background-color: var(--light-background);
 }
 
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--primary-color);
+}
+
+.about-text-content {
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.about-text-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.8;
+}
+
 .mission-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .mission-card {
@@ -150,6 +170,11 @@
     color: var(--primary-color);
 }
 
+.member-info p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
 .member-role {
     color: var(--secondary-color);
     font-weight: 500;
@@ -157,10 +182,83 @@
     font-size: 1rem;
 }
 
+.service-locations {
+    margin-top: 3rem;
+    text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.service-locations p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--light-text);
+}
+
 /* Locations Section */
 .locations {
     padding: 100px 0;
     background-color: var(--light-background);
+}
+
+.locations h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--primary-color);
+}
+
+.service-section {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    margin-bottom: 30px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-section h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.service-section p {
+    margin-bottom: 1.25rem;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--text-color);
+}
+
+.service-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.service-section li {
+    padding: 10px 0;
+    position: relative;
+    padding-left: 25px;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--text-color);
+}
+
+.service-section li:before {
+    content: "•";
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 8px;
 }
 
 .locations-grid {
