@@ -1,0 +1,426 @@
+/* Services Page Specific Styles */
+
+/* Page Header */
+.page-header {
+    padding: 150px 0 80px;
+    text-align: center;
+    position: relative;
+    background-image: url(../assets/images/heroBG.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.page-header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 0;
+}
+
+.page-header h1 {
+    margin-bottom: 1rem;
+    z-index: 1;
+    position: relative;
+}
+
+.page-header p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+}
+
+/* Services Intro */
+.services-intro {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #f0f9f4 0%, #e8f5e9 100%);
+}
+
+.services-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.services-text h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.services-text p {
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 1.8;
+}
+
+/* Services Section */
+.services-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #f5f9f0 0%, #f0f5e8 100%);
+    position: relative;
+}
+
+.services-section.alt-bg {
+    background: linear-gradient(135deg, #f0f5f9 0%, #e8f0f5 100%);
+}
+
+.service-category {
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.service-number {
+    font-size: 6rem;
+    font-weight: 700;
+    color: rgba(45, 90, 39, 0.1);
+    position: absolute;
+    top: -30px;
+    left: -60px;
+    z-index: 0;
+    line-height: 1;
+}
+
+.service-category h2 {
+    text-align: left;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    position: relative;
+    z-index: 1;
+    padding-left: 80px;
+}
+
+.service-category-description {
+    font-size: 1.25rem;
+    color: var(--light-text);
+    margin-bottom: 3rem;
+    padding-left: 80px;
+    line-height: 1.8;
+}
+
+.service-items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding-left: 80px;
+}
+
+.service-item {
+    background: white;
+    padding: 35px 30px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+    border-left: 4px solid var(--primary-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.service-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    transition: width 0.3s ease;
+}
+
+.service-item:hover::before {
+    width: 6px;
+}
+
+.service-item:hover {
+    transform: translateX(5px) translateY(-5px);
+    box-shadow: 0 8px 25px rgba(45, 90, 39, 0.15);
+}
+
+.service-item:nth-child(2) {
+    border-left-color: var(--secondary-color);
+}
+
+.service-item:nth-child(3) {
+    border-left-color: #6b8e23;
+}
+
+.service-item:nth-child(4) {
+    border-left-color: var(--accent-color);
+}
+
+.service-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.service-item h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    border-radius: 2px;
+}
+
+.service-item p {
+    margin-bottom: 0;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+
+/* Process Overview */
+.process-overview {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #f9f5f0 0%, #f5f0e8 100%);
+}
+
+.process-overview h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.process-overview h2::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--accent-color) 100%);
+    border-radius: 2px;
+}
+
+.section-subtitle {
+    text-align: center;
+    font-size: 1.125rem;
+    color: var(--light-text);
+    max-width: 600px;
+    margin: 0 auto 3rem;
+}
+
+.process-timeline {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    padding: 40px 0;
+}
+
+.process-timeline::before {
+    content: "";
+    position: absolute;
+    left: 30px;
+    top: 80px;
+    bottom: 80px;
+    width: 3px;
+    background: linear-gradient(180deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+.timeline-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-number {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 30px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 15px rgba(45, 90, 39, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+.timeline-content {
+    flex: 1;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: translateX(5px);
+    box-shadow: 0 8px 25px rgba(45, 90, 39, 0.15);
+}
+
+.timeline-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.timeline-content p {
+    margin-bottom: 0;
+    color: var(--light-text);
+    font-size: 1.05rem;
+}
+
+/* Active Navigation State */
+.main-nav a.active {
+    color: var(--accent-color);
+}
+
+#main-header.scrolled .main-nav a.active {
+    color: var(--primary-color);
+}
+
+/* Responsive Design for Services Page */
+@media (max-width: 992px) {
+    .service-items-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
+    }
+    
+    .service-number {
+        font-size: 5rem;
+        top: -25px;
+        left: -15px;
+    }
+    
+    .service-category h2,
+    .service-category-description,
+    .service-items-grid {
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-header {
+        padding: 130px 0 60px;
+    }
+    
+    .services-intro,
+    .services-section,
+    .process-overview {
+        padding: 70px 0;
+    }
+    
+    .service-number {
+        font-size: 4rem;
+        top: -20px;
+        left: -10px;
+    }
+    
+    .service-category h2 {
+        padding-left: 50px;
+        font-size: 1.75rem;
+    }
+    
+    .service-category-description {
+        padding-left: 50px;
+        font-size: 1.125rem;
+    }
+    
+    .service-items-grid {
+        grid-template-columns: 1fr;
+        padding-left: 50px;
+        gap: 20px;
+    }
+    
+    .service-item {
+        padding: 30px 25px;
+    }
+    
+    .process-timeline::before {
+        left: 25px;
+    }
+    
+    .timeline-number {
+        width: 50px;
+        height: 50px;
+        font-size: 1.25rem;
+        margin-right: 20px;
+    }
+    
+    .timeline-content {
+        padding: 20px 25px;
+    }
+}
+
+@media (max-width: 576px) {
+    .page-header h1 {
+        font-size: 2.25rem;
+    }
+    
+    .service-number {
+        font-size: 3rem;
+        position: static;
+        margin-bottom: 20px;
+    }
+    
+    .service-category h2,
+    .service-category-description,
+    .service-items-grid {
+        padding-left: 0;
+    }
+    
+    .service-category h2 {
+        text-align: center;
+    }
+    
+    .service-category-description {
+        text-align: center;
+    }
+    
+    .service-item {
+        border-left-width: 3px;
+    }
+    
+    .service-item:hover {
+        transform: translateY(-5px);
+    }
+    
+    .process-timeline::before {
+        display: none;
+    }
+    
+    .timeline-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .timeline-number {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .timeline-content {
+        width: 100%;
+    }
+}
+
