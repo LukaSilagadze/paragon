@@ -107,11 +107,29 @@ document.addEventListener('DOMContentLoaded', function() {
             const projectTitle = this.querySelector('h3').textContent;
             const projectKey = projectTitle.toLowerCase().replace(/\s+/g, '-');
             
+            // Get the image from the clicked portfolio item
+            const portfolioImage = this.querySelector('.portfolio-image img');
+            const imageSrc = portfolioImage ? portfolioImage.src : '';
+            const imageAlt = portfolioImage ? portfolioImage.alt : 'Project image';
+            
             // For demo purposes, we'll use the first project data
             // In a real implementation, you would match the clicked project with its data
             const data = projectData['downtown-sanctuary'];
             
             if (data) {
+                // Update modal image
+                const modalImagesContainer = document.querySelector('.modal-images');
+                modalImagesContainer.innerHTML = '';
+                if (imageSrc) {
+                    const img = document.createElement('img');
+                    img.src = imageSrc;
+                    img.alt = imageAlt;
+                    img.className = 'modal-main-image';
+                    modalImagesContainer.appendChild(img);
+                } else {
+                    modalImagesContainer.innerHTML = '<div class="image-placeholder">Project Gallery</div>';
+                }
+                
                 document.getElementById('modal-title').textContent = data.title;
                 document.getElementById('modal-location').textContent = data.location;
                 document.getElementById('modal-description').textContent = data.description;

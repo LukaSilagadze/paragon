@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | PARAGON</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">PARAGON</a>
+                <span>Landscape for Life</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Blog</h1>
+            <p>Insights, tips, and inspiration for creating beautiful outdoor spaces</p>
+        </div>
+    </section>
+
+    <!-- Blog Filter -->
+    <section class="blog-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Posts</button>
+                <button class="filter-btn" data-filter="design">Design Tips</button>
+                <button class="filter-btn" data-filter="maintenance">Maintenance</button>
+                <button class="filter-btn" data-filter="trends">Trends</button>
+                <button class="filter-btn" data-filter="projects">Projects</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="blog-grid-section">
+        <div class="container">
+            <div class="blog-posts">
+                <!-- Blog Post 1 -->
+                <article class="blog-post" data-category="trends">
+                    <div class="blog-image">
+                        <img src="./assets/images/demo_img1.jpg" alt="Summer Garden Trends 2025" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">June 15, 2025</span>
+                            <span class="blog-category">Trends</span>
+                        </div>
+                        <h2 class="blog-title">Summer Garden Trends 2025</h2>
+                        <p class="blog-excerpt">Discover the latest trends in sustainable garden design and outdoor living spaces. From native plant gardens to smart irrigation systems, explore what's shaping modern landscape design.</p>
+                        <a href="#" class="read-more" data-post-id="post-1">Read more</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-post" data-category="design">
+                    <div class="blog-image">
+                        <img src="./assets/images/demo_img2.jpg" alt="Native Plants for Urban Gardens" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">May 22, 2025</span>
+                            <span class="blog-category">Design Tips</span>
+                        </div>
+                        <h2 class="blog-title">Native Plants for Urban Gardens</h2>
+                        <p class="blog-excerpt">How to incorporate native species into small urban spaces for biodiversity and low maintenance. Learn which plants thrive in city environments and create beautiful, sustainable gardens.</p>
+                        <a href="#" class="read-more" data-post-id="post-2">Read more</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-post" data-category="maintenance">
+                    <div class="blog-image">
+                        <img src="./assets/images/demo_img3.jpg" alt="Seasonal Garden Maintenance Guide" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">April 10, 2025</span>
+                            <span class="blog-category">Maintenance</span>
+                        </div>
+                        <h2 class="blog-title">Seasonal Garden Maintenance Guide</h2>
+                        <p class="blog-excerpt">A comprehensive guide to keeping your garden healthy throughout the year. From spring planting to winter protection, learn essential maintenance practices for every season.</p>
+                        <a href="#" class="read-more" data-post-id="post-3">Read more</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article class="blog-post" data-category="design">
+                    <div class="blog-image">
+                        <img src="./assets/images/demo_img4.jpg" alt="Creating Outdoor Living Spaces" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">March 28, 2025</span>
+                            <span class="blog-category">Design Tips</span>
+                        </div>
+                        <h2 class="blog-title">Creating Outdoor Living Spaces</h2>
+                        <p class="blog-excerpt">Transform your backyard into a functional extension of your home. Discover design principles for creating comfortable, inviting outdoor spaces that maximize both beauty and usability.</p>
+                        <a href="#" class="read-more" data-post-id="post-4">Read more</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 5 -->
+                <article class="blog-post" data-category="projects">
+                    <div class="blog-image">
+                        <img src="./assets/images/portfolio_img1.jpg" alt="Urban Oasis Project Case Study" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">February 15, 2025</span>
+                            <span class="blog-category">Projects</span>
+                        </div>
+                        <h2 class="blog-title">Urban Oasis Project Case Study</h2>
+                        <p class="blog-excerpt">Take a behind-the-scenes look at how we transformed a compact downtown space into a lush, multi-level garden. Learn about the challenges and solutions in urban landscape design.</p>
+                        <a href="#" class="read-more" data-post-id="post-5">Read more</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 6 -->
+                <article class="blog-post" data-category="trends">
+                    <div class="blog-image">
+                        <img src="./assets/images/portfolio_img2.jpg" alt="Sustainable Landscape Design Principles" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">January 20, 2025</span>
+                            <span class="blog-category">Trends</span>
+                        </div>
+                        <h2 class="blog-title">Sustainable Landscape Design Principles</h2>
+                        <p class="blog-excerpt">Explore eco-friendly approaches to landscape design that reduce water usage, support local ecosystems, and create beautiful spaces that benefit both people and the environment.</p>
+                        <a href="#" class="read-more" data-post-id="post-6">Read more</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 7 -->
+                <article class="blog-post" data-category="maintenance">
+                    <div class="blog-image">
+                        <img src="./assets/images/portfolio_img3.jpeg" alt="Water-Wise Gardening Tips" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">December 5, 2024</span>
+                            <span class="blog-category">Maintenance</span>
+                        </div>
+                        <h2 class="blog-title">Water-Wise Gardening Tips</h2>
+                        <p class="blog-excerpt">Learn how to create a beautiful garden that conserves water. Discover drought-tolerant plants, efficient irrigation systems, and smart watering strategies for sustainable landscapes.</p>
+                        <a href="#" class="read-more" data-post-id="post-7">Read more</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 8 -->
+                <article class="blog-post" data-category="design">
+                    <div class="blog-image">
+                        <img src="./assets/images/demo_img1.jpg" alt="Lighting Your Outdoor Space" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">November 18, 2024</span>
+                            <span class="blog-category">Design Tips</span>
+                        </div>
+                        <h2 class="blog-title">Lighting Your Outdoor Space</h2>
+                        <p class="blog-excerpt">The art and science of outdoor lighting. Learn how to create ambiance, enhance safety, and extend the usability of your outdoor spaces with thoughtful lighting design.</p>
+                        <a href="#" class="read-more" data-post-id="post-8">Read more</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 9 -->
+                <article class="blog-post" data-category="projects">
+                    <div class="blog-image">
+                        <img src="./assets/images/demo_img2.jpg" alt="Family Backyard Transformation" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">October 12, 2024</span>
+                            <span class="blog-category">Projects</span>
+                        </div>
+                        <h2 class="blog-title">Family Backyard Transformation</h2>
+                        <p class="blog-excerpt">See how we designed a multi-functional backyard that accommodates both children's play areas and adult relaxation zones, creating a space the whole family can enjoy.</p>
+                        <a href="#" class="read-more" data-post-id="post-9">Read more</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="blog-pagination">
+                <button class="btn btn-outline load-more-btn">Load More Posts</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for the latest design tips, project updates, and garden inspiration delivered to your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Post Modal -->
+    <div class="blog-modal" id="blog-modal">
+        <div class="blog-modal-content">
+            <span class="close-blog-modal">&times;</span>
+            <div class="blog-modal-body">
+                <div class="blog-modal-image">
+                    <img id="modal-blog-image" src="" alt="">
+                </div>
+                <div class="blog-modal-info">
+                    <div class="blog-modal-meta">
+                        <span id="modal-blog-date"></span>
+                        <span id="modal-blog-category"></span>
+                    </div>
+                    <h2 id="modal-blog-title"></h2>
+                    <div id="modal-blog-content" class="blog-modal-full-content">
+                        <!-- Full blog content will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Transform Your Outdoor Space?</h2>
+            <p>Let's discuss how we can bring your vision to life</p>
+            <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>PARAGON</h3>
+                    <p>Creating beautiful, sustainable outdoor spaces that connect people with nature through thoughtful design and expert craftsmanship.</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>+1 (555) 123-4567</p>
+                    <p>info@greenoasisgardens.com</p>
+                    <p>123 Garden Lane, Greenville</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Pinterest">Pinterest</a>
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PARAGON. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>
+
