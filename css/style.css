@@ -146,6 +146,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
 }
+
 .logo{
     display: flex;
     flex-direction: column;
@@ -170,6 +171,49 @@ a:hover {
 
 #main-header.scrolled .logo span{
     color: var(--primary-color);
+}
+
+/* Logo Container with Image */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.logo-container:hover {
+    opacity: 0.8;
+}
+
+.logo-container img {
+    height: 40px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+    transition: filter 0.3s ease;
+    filter: brightness(10%) saturate(100%) invert(1);
+}
+
+#main-header.scrolled .logo-container img {
+    filter: none;
+}
+
+.logo-container:hover img {
+    transform: scale(1.05);
+}
+
+/* Responsive Logo Container */
+@media (max-width: 768px) {
+    .logo-container img {
+        height: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo-container img {
+        height: 30px;
+    }
 }
 .main-nav ul {
     display: flex;
