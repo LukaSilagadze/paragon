@@ -170,18 +170,57 @@ a:hover {
 .main-nav a {
     color: white;
     font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
 }
 
 #main-header.scrolled .main-nav a {
     color: var(--text-color);
 }
 
+.main-nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease;
+}
+
+#main-header.scrolled .main-nav a::after {
+    background-color: var(--primary-color);
+}
+
 .main-nav a:hover {
     color: var(--accent-color);
 }
 
+.main-nav a:hover::after {
+    width: 100%;
+}
+
 #main-header.scrolled .main-nav a:hover {
     color: var(--primary-color);
+}
+
+/* Active Navigation State */
+.main-nav a.active {
+    color: var(--accent-color);
+}
+
+.main-nav a.active::after {
+    width: 100%;
+    background-color: var(--accent-color);
+}
+
+#main-header.scrolled .main-nav a.active {
+    color: var(--primary-color);
+}
+
+#main-header.scrolled .main-nav a.active::after {
+    background-color: var(--primary-color);
 }
 
 .hamburger {
@@ -550,6 +589,20 @@ footer {
     .main-nav a {
         color: var(--text-color);
         font-size: 1.1rem;
+    }
+    
+    .main-nav a::after {
+        bottom: -3px;
+    }
+    
+    .main-nav a.active {
+        color: var(--primary-color);
+        font-weight: 600;
+    }
+    
+    .main-nav a.active::after {
+        width: 100%;
+        background-color: var(--primary-color);
     }
     
     .hamburger {
