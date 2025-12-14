@@ -2,7 +2,7 @@
 
 /* Page Header */
 .page-header {
-    padding: 150px 0 80px;
+    padding: 120px 0 50px;
     text-align: center;
     position: relative;
     background-image: url(../assets/images/heroBG.jpg);
@@ -28,7 +28,7 @@
 }
 
 .page-header p {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     max-width: 600px;
     margin: 0 auto;
     z-index: 1;
@@ -38,20 +38,21 @@
 
 /* About Intro */
 .about-intro {
-    padding: 100px 0;
+    padding: 35px 0;
     background: linear-gradient(135deg, #f0f9f4 0%, #e8f5e9 100%);
 }
 
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 40px;
     align-items: center;
 }
 
 .about-text h2 {
     text-align: left;
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.75rem;
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -59,24 +60,23 @@
 }
 
 .about-text p {
-    margin-bottom: 1.5rem;
-    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.7;
 }
 
 .about-image {
-    height: 500px;
-    background: linear-gradient(135deg, #e8f5e9 0%, #c8d5b9 50%, #8a9b6e 100%);
     border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     box-shadow: 0 8px 20px rgba(45, 90, 39, 0.15);
-    border: 3px solid var(--accent-color);
+    object-fit: cover;
+    width: 100%;
+    max-height: 280px;
+    object-position: center;
 }
 
 /* Mission & Values */
 .mission-values {
-    padding: 100px 0;
+    padding: 35px 0;
     background: linear-gradient(135deg, #f5f9f0 0%, #f0f5e8 100%);
     position: relative;
 }
@@ -94,55 +94,37 @@
     pointer-events: none;
 }
 
-.section-title {
-    text-align: center;
-    margin-bottom: 3rem;
-    color: var(--primary-color);
+.mission-values .about-content {
     position: relative;
-    display: inline-block;
-    width: 100%;
+    z-index: 1;
 }
 
-.section-title::after {
-    content: "";
-    position: absolute;
-    bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 4px;
-    background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--accent-color) 100%);
-    border-radius: 2px;
+.mission-values .about-text h2 {
+    text-align: left;
+    margin-bottom: 1.25rem;
+    font-size: 1.75rem;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
-.about-text-content {
-    max-width: 900px;
-    margin: 0 auto 3rem;
-    text-align: center;
-}
-
-.about-text-content p {
-    margin-bottom: 1.5rem;
-    font-size: 1.125rem;
-    line-height: 1.8;
-}
-
-.mission-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
-    max-width: 900px;
-    margin: 0 auto;
+.mission-values .about-text p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.7;
 }
 
 .mission-card {
     background: white;
-    padding: 40px 30px;
+    padding: 30px 25px;
     border-radius: 8px;
     box-shadow: var(--shadow);
     border-left: 5px solid var(--primary-color);
     border-top: 3px solid var(--secondary-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 1.5rem;
 }
 
 .mission-card:hover {
@@ -185,22 +167,32 @@
 
 /* Team Section */
 .team {
-    padding: 100px 0;
+    padding: 35px 0;
     background: linear-gradient(135deg, #f9f5f0 0%, #f5f0e8 100%);
 }
 
-.team h2 {
+.team .about-content {
+    align-items: flex-start;
+}
+
+.team .about-text h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     position: relative;
     display: inline-block;
     width: 100%;
 }
 
-.team h2::after {
+.team .about-text h2::after {
     content: "";
     position: absolute;
     bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
     width: 80px;
     height: 4px;
     background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--accent-color) 100%);
@@ -208,17 +200,17 @@
 }
 
 .section-subtitle {
-    text-align: center;
-    font-size: 1.125rem;
+    text-align: left;
+    font-size: 1rem;
     color: var(--light-text);
-    max-width: 600px;
-    margin: 0 auto 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 40px;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 1.5rem;
 }
 
 .team-member {
@@ -279,12 +271,9 @@
 }
 
 .service-locations {
-    margin-top: 3rem;
-    text-align: center;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
+    margin-top: 1.5rem;
+    text-align: left;
+    padding: 25px;
     background: linear-gradient(135deg, #2d5a27 0%, #3d6b2f 100%);
     color: white;
     border-radius: 12px;
@@ -292,21 +281,22 @@
 }
 
 .service-locations p {
-    font-size: 1.125rem;
-    line-height: 1.8;
+    font-size: 1rem;
+    line-height: 1.7;
     color: white;
     margin: 0;
 }
 
 /* Locations Section */
 .locations {
-    padding: 100px 0;
+    padding: 35px 0;
     background: linear-gradient(135deg, #f0f5f9 0%, #e8f0f5 100%);
 }
 
 .locations h2 {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.75rem;
     color: var(--primary-color);
     position: relative;
     display: inline-block;
@@ -327,10 +317,10 @@
 
 .service-section {
     background: white;
-    padding: 40px;
+    padding: 30px;
     border-radius: 12px;
     box-shadow: var(--shadow);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -374,10 +364,10 @@
 
 .service-section h3 {
     color: var(--primary-color);
-    margin-bottom: 1.5rem;
-    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 .service-section h3::after {
@@ -392,9 +382,9 @@
 }
 
 .service-section p {
-    margin-bottom: 1.25rem;
-    font-size: 1.125rem;
-    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.7;
     color: var(--text-color);
 }
 
@@ -405,11 +395,11 @@
 }
 
 .service-section li {
-    padding: 10px 0;
+    padding: 6px 0;
     position: relative;
     padding-left: 25px;
-    font-size: 1.125rem;
-    line-height: 1.8;
+    font-size: 1rem;
+    line-height: 1.6;
     color: var(--text-color);
 }
 
@@ -538,12 +528,26 @@
         background-clip: text;
     }
     
+    .mission-values .about-text h2::after,
+    .team .about-text h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .section-subtitle {
+        text-align: center;
+    }
+    
+    .service-locations {
+        text-align: center;
+    }
+    
     .service-section {
         border-left-width: 4px;
     }
     
     .about-image {
-        height: 300px;
+        height: 220px;
         order: -1;
     }
     
@@ -572,7 +576,7 @@
     .mission-values,
     .team,
     .locations {
-        padding: 70px 0;
+        padding: 40px 0;
     }
     
     .mission-grid,

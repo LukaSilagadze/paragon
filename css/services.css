@@ -2,7 +2,7 @@
 
 /* Page Header */
 .page-header {
-    padding: 150px 0 80px;
+    padding: 120px 0 50px;
     text-align: center;
     position: relative;
     background-image: url(../assets/images/heroBG.jpg);
@@ -27,43 +27,82 @@
 }
 
 .page-header p {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     max-width: 600px;
     margin: 0 auto;
     z-index: 1;
     position: relative;
 }
 
-/* Services Intro */
-.services-intro {
-    padding: 100px 0;
-    background: linear-gradient(135deg, #f0f9f4 0%, #e8f5e9 100%);
+/* Services Content Layout - matching about page */
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
 }
 
-.services-content {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.services-text h2 {
-    text-align: center;
-    margin-bottom: 2rem;
+.about-text h2 {
+    text-align: left;
+    margin-bottom: 1.25rem;
+    font-size: 1.75rem;
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.services-text p {
-    margin-bottom: 1.5rem;
-    font-size: 1.125rem;
-    text-align: center;
-    line-height: 1.8;
+.about-text p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.about-image {
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(45, 90, 39, 0.15);
+    object-fit: cover;
+    width: 100%;
+    max-height: 280px;
+    object-position: center;
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.service-list li {
+    padding: 6px 0;
+    position: relative;
+    padding-left: 30px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.service-list li:before {
+    content: "✓";
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: #e8f5e9;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 8px;
 }
 
 /* Services Section */
 .services-section {
-    padding: 100px 0;
+    padding: 35px 0;
     background: linear-gradient(135deg, #f5f9f0 0%, #f0f5e8 100%);
     position: relative;
 }
@@ -300,127 +339,65 @@
 
 /* Responsive Design for Services Page */
 @media (max-width: 992px) {
-    .service-items-grid {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 25px;
+    .about-content {
+        gap: 40px;
     }
     
-    .service-number {
-        font-size: 5rem;
-        top: -25px;
-        left: -15px;
-    }
-    
-    .service-category h2,
-    .service-category-description,
-    .service-items-grid {
-        padding-left: 60px;
+    .about-image {
+        height: 300px;
     }
 }
 
 @media (max-width: 768px) {
     .page-header {
-        padding: 130px 0 60px;
+        padding: 100px 0 40px;
     }
     
-    .services-intro,
-    .services-section,
-    .process-overview {
-        padding: 70px 0;
+    .services-section {
+        padding: 30px 0;
     }
     
-    .service-number {
-        font-size: 4rem;
-        top: -20px;
-        left: -10px;
-    }
-    
-    .service-category h2 {
-        padding-left: 50px;
-        font-size: 1.75rem;
-    }
-    
-    .service-category-description {
-        padding-left: 50px;
-        font-size: 1.125rem;
-    }
-    
-    .service-items-grid {
+    .about-content {
         grid-template-columns: 1fr;
-        padding-left: 50px;
-        gap: 20px;
+        gap: 40px;
     }
     
-    .service-item {
-        padding: 30px 25px;
+    .about-text h2 {
+        text-align: center;
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
     }
     
-    .process-timeline::before {
-        left: 25px;
+    .about-text p {
+        text-align: center;
     }
     
-    .timeline-number {
-        width: 50px;
-        height: 50px;
-        font-size: 1.25rem;
-        margin-right: 20px;
+    .service-list {
+        text-align: left;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
-    .timeline-content {
-        padding: 20px 25px;
+    .about-image {
+        height: 220px;
+        order: -1;
     }
 }
 
 @media (max-width: 576px) {
     .page-header h1 {
-        font-size: 2.25rem;
+        font-size: 2rem;
     }
     
-    .service-number {
-        font-size: 3rem;
-        position: static;
-        margin-bottom: 20px;
+    .services-section {
+        padding: 25px 0;
     }
     
-    .service-category h2,
-    .service-category-description,
-    .service-items-grid {
-        padding-left: 0;
-    }
-    
-    .service-category h2 {
-        text-align: center;
-    }
-    
-    .service-category-description {
-        text-align: center;
-    }
-    
-    .service-item {
-        border-left-width: 3px;
-    }
-    
-    .service-item:hover {
-        transform: translateY(-5px);
-    }
-    
-    .process-timeline::before {
-        display: none;
-    }
-    
-    .timeline-item {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .timeline-number {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-    
-    .timeline-content {
-        width: 100%;
+    .about-image {
+        height: 180px;
     }
 }
 

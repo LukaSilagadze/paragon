@@ -1,5 +1,33 @@
 // js/main.js
 
+// Auto Slider
+let slideIndex = 0;
+function autoSlider() {
+    let slides = document.getElementsByClassName("bg_posters");
+    let indicators = document.getElementsByClassName("indicator-dot");
+    
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].classList.remove("active");
+    }
+    
+    for (let i = 0; i < indicators.length; i++) {
+        indicators[i].classList.remove("active");
+    }
+    
+    slideIndex = slideIndex + 1;
+    
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+    if (slides[slideIndex - 1]) {
+        slides[slideIndex - 1].classList.add("active");
+    }
+    if (indicators[slideIndex - 1]) {
+        indicators[slideIndex - 1].classList.add("active");
+    }
+    setTimeout(autoSlider, 5000);
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     // Header scroll effect
     const header = document.getElementById('main-header');
@@ -31,6 +59,35 @@ document.addEventListener('DOMContentLoaded', function() {
             mainNav.classList.remove('active');
         });
     });
+
+    // Initialize first slide indicator and get indicators
+    const indicators = document.getElementsByClassName("indicator-dot");
+    
+    // Add click handlers for indicator dots
+    Array.from(indicators).forEach((dot, index) => {
+        dot.addEventListener('click', function() {
+            // Reset all slides and indicators
+            const slides = document.getElementsByClassName("bg_posters");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active");
+            }
+            for (let i = 0; i < indicators.length; i++) {
+                indicators[i].classList.remove("active");
+            }
+            
+            // Set clicked slide and indicator as active
+            if (slides[index]) {
+                slides[index].classList.add("active");
+            }
+            dot.classList.add("active");
+            
+            // Reset slideIndex to continue from clicked slide
+            slideIndex = index + 1; // +1 because autoSlider increments first
+        });
+    });
+    
+    // Auto Slider
+    autoSlider();
 
     // Portfolio filtering (for portfolio.html)
     const filterButtons = document.querySelectorAll('.filter-btn');
