@@ -409,6 +409,33 @@ a:hover {
     gap: 15px;
 }
 
+/* CTA Section */
+.cta {
+    padding: 50px 0;
+    background: linear-gradient(135deg, #f0f9f4 0%, #e8f5e9 100%);
+    text-align: center;
+}
+
+.cta .container {
+    max-width: 800px;
+}
+
+.cta h2 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.cta p {
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+    color: var(--light-text);
+}
+
+.cta .btn {
+    margin-top: 0.5rem;
+}
+
 /* Footer */
 footer {
     background-color: #1a1a1a;
@@ -586,8 +613,19 @@ footer {
     .services-highlight, 
     .portfolio-highlight, 
     .approach-highlight, 
-    .media-highlight, 
-    .cta {
+    .media-highlight {
         padding: 70px 0;
+    }
+    
+    .cta {
+        padding: 40px 0;
+    }
+    
+    .cta h2 {
+        font-size: 1.75rem;
+    }
+    
+    .cta p {
+        font-size: 1rem;
     }
 }
