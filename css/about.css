@@ -38,7 +38,7 @@
 
 /* About Intro */
 .about-intro {
-    padding: 100px 0;
+    padding: 50px 0;
     background: linear-gradient(135deg, #f0f9f4 0%, #e8f5e9 100%);
 }
 
@@ -64,19 +64,17 @@
 }
 
 .about-image {
-    height: 500px;
-    background: linear-gradient(135deg, #e8f5e9 0%, #c8d5b9 50%, #8a9b6e 100%);
     border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     box-shadow: 0 8px 20px rgba(45, 90, 39, 0.15);
-    border: 3px solid var(--accent-color);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
 }
 
 /* Mission & Values */
 .mission-values {
-    padding: 100px 0;
+    padding: 50px 0;
     background: linear-gradient(135deg, #f5f9f0 0%, #f0f5e8 100%);
     position: relative;
 }
@@ -94,45 +92,24 @@
     pointer-events: none;
 }
 
-.section-title {
-    text-align: center;
-    margin-bottom: 3rem;
-    color: var(--primary-color);
+.mission-values .about-content {
     position: relative;
-    display: inline-block;
-    width: 100%;
+    z-index: 1;
 }
 
-.section-title::after {
-    content: "";
-    position: absolute;
-    bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 4px;
-    background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--accent-color) 100%);
-    border-radius: 2px;
+.mission-values .about-text h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
-.about-text-content {
-    max-width: 900px;
-    margin: 0 auto 3rem;
-    text-align: center;
-}
-
-.about-text-content p {
+.mission-values .about-text p {
     margin-bottom: 1.5rem;
     font-size: 1.125rem;
-    line-height: 1.8;
-}
-
-.mission-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
-    max-width: 900px;
-    margin: 0 auto;
+    text-align: left;
 }
 
 .mission-card {
@@ -143,6 +120,7 @@
     border-left: 5px solid var(--primary-color);
     border-top: 3px solid var(--secondary-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 2rem;
 }
 
 .mission-card:hover {
@@ -185,22 +163,31 @@
 
 /* Team Section */
 .team {
-    padding: 100px 0;
+    padding: 50px 0;
     background: linear-gradient(135deg, #f9f5f0 0%, #f5f0e8 100%);
 }
 
-.team h2 {
+.team .about-content {
+    align-items: flex-start;
+}
+
+.team .about-text h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     position: relative;
     display: inline-block;
     width: 100%;
 }
 
-.team h2::after {
+.team .about-text h2::after {
     content: "";
     position: absolute;
     bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
     width: 80px;
     height: 4px;
     background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--accent-color) 100%);
@@ -208,17 +195,17 @@
 }
 
 .section-subtitle {
-    text-align: center;
+    text-align: left;
     font-size: 1.125rem;
     color: var(--light-text);
-    max-width: 600px;
-    margin: 0 auto 3rem;
+    margin-bottom: 2rem;
 }
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 40px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 2rem;
 }
 
 .team-member {
@@ -279,11 +266,8 @@
 }
 
 .service-locations {
-    margin-top: 3rem;
-    text-align: center;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 2rem;
+    text-align: left;
     padding: 30px;
     background: linear-gradient(135deg, #2d5a27 0%, #3d6b2f 100%);
     color: white;
@@ -536,6 +520,20 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
+    }
+    
+    .mission-values .about-text h2::after,
+    .team .about-text h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .section-subtitle {
+        text-align: center;
+    }
+    
+    .service-locations {
+        text-align: center;
     }
     
     .service-section {
