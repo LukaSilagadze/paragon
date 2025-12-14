@@ -81,6 +81,47 @@
     margin-bottom: 60px;
 }
 
+/* Topic grouping: rows of 3 posts with a title */
+.topic-group {
+    margin-bottom: 48px;
+}
+
+.topic-title {
+    font-size: 1.75rem;
+    color: var(--primary-color);
+    margin: 0 0 20px;
+}
+
+.topic-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+}
+
+.blog-post.blog-placeholder .blog-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f0f5e8 0%, #eef6ee 100%);
+}
+
+.blog-post.blog-placeholder .blog-title {
+    color: var(--text-color);
+}
+
+@media (max-width: 992px) {
+    .topic-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .topic-row {
+        grid-template-columns: 1fr;
+    }
+}
+
 .blog-post {
     background: white;
     border-radius: 12px;
