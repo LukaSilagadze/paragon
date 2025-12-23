@@ -70,7 +70,6 @@
     box-shadow: 0 8px 20px rgba(45, 90, 39, 0.15);
     object-fit: cover;
     width: 100%;
-    max-height: 280px;
     object-position: center;
 }
 
@@ -114,27 +113,6 @@
     font-size: 1rem;
     text-align: left;
     line-height: 1.7;
-}
-
-.mission-card {
-    background: white;
-    padding: 30px 25px;
-    border-radius: 8px;
-    box-shadow: var(--shadow);
-    border-left: 5px solid var(--primary-color);
-    border-top: 3px solid var(--secondary-color);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-top: 1.5rem;
-}
-
-.mission-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(45, 90, 39, 0.15);
-}
-
-.mission-card h3 {
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
 }
 
 .mission-card ul {
