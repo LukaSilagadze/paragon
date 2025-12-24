@@ -3,407 +3,388 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | PARAGON</title>
+    <title>The Paragon blog - PARAGON Landscapes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/blog.css">
-    <link rel="shortcut icon" href="assets/images/paragon.svg" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/dc2d1e509b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/blog.css">
 </head>
 <body>
     <!-- Header -->
-    <header id="main-header">
-        <div class="container">
-            <div class="logo-container">
-                <img src="assets/images/paragon.svg" alt="paragon logo" class="logo-icon">
-                <div class="logo">
-                    <a href="index.html">PARAGON</a>
-                    <span>Landscape for Life</span>
-                </div>
-            </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="blog.html" class="active">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </header>
-
-    <!-- Page Header -->
-    <section class="page-header">
-        <div class="container">
-            <h1>Our Blog</h1>
-            <p>Insights, tips, and inspiration for creating beautiful outdoor spaces</p>
-        </div>
-    </section>
-
-    <!-- Blog Filter -->
-    <section class="blog-filter">
-        <div class="container">
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">All Posts</button>
-                <button class="filter-btn" data-filter="design">Design Tips</button>
-                <button class="filter-btn" data-filter="maintenance">Maintenance</button>
-                <button class="filter-btn" data-filter="trends">Trends</button>
-                <button class="filter-btn" data-filter="projects">Projects</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog Posts Grid -->
-    <section class="blog-grid-section">
-        <div class="container">
-            <!-- Grouped by topic: each group shows up to 3 posts horizontally -->
-            <div class="topic-group">
-                <h2 class="topic-title">Landscape Architecture & Design</h2>
-                <div class="topic-row">
-                    <!-- post-2 -->
-                    <article class="blog-post" data-category="design">
-                        <div class="blog-image">
-                            <img src="./assets/images/demo_img2.jpg" alt="Native Plants for Urban Gardens" loading="lazy">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-date">May 22, 2025</span>
-                                <span class="blog-category">Design Tips</span>
-                            </div>
-                            <h2 class="blog-title">Native Plants for Urban Gardens</h2>
-                            <p class="blog-excerpt">How to incorporate native species into small urban spaces for biodiversity and low maintenance. Learn which plants thrive in city environments and create beautiful, sustainable gardens.</p>
-                            <a href="#" class="read-more" data-post-id="post-2">Read more</a>
-                        </div>
-                    </article>
-
-                    <!-- post-4 -->
-                    <article class="blog-post" data-category="design">
-                        <div class="blog-image">
-                            <img src="./assets/images/demo_img4.jpg" alt="Creating Outdoor Living Spaces" loading="lazy">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-date">March 28, 2025</span>
-                                <span class="blog-category">Design Tips</span>
-                            </div>
-                            <h2 class="blog-title">Creating Outdoor Living Spaces</h2>
-                            <p class="blog-excerpt">Transform your backyard into a functional extension of your home. Discover design principles for creating comfortable, inviting outdoor spaces that maximize both beauty and usability.</p>
-                            <a href="#" class="read-more" data-post-id="post-4">Read more</a>
-                        </div>
-                    </article>
-
-                    <!-- post-8 -->
-                    <article class="blog-post" data-category="design">
-                        <div class="blog-image">
-                            <img src="./assets/images/demo_img1.jpg" alt="Lighting Your Outdoor Space" loading="lazy">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-date">November 18, 2024</span>
-                                <span class="blog-category">Design Tips</span>
-                            </div>
-                            <h2 class="blog-title">Lighting Your Outdoor Space</h2>
-                            <p class="blog-excerpt">The art and science of outdoor lighting. Learn how to create ambiance, enhance safety, and extend the usability of your outdoor spaces with thoughtful lighting design.</p>
-                            <a href="#" class="read-more" data-post-id="post-8">Read more</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-
-            <div class="topic-group">
-                <h2 class="topic-title">Sod Installation</h2>
-                <div class="topic-row">
-                    <!-- post-3 -->
-                    <article class="blog-post" data-category="maintenance">
-                        <div class="blog-image">
-                            <img src="./assets/images/demo_img3.jpg" alt="Seasonal Garden Maintenance Guide" loading="lazy">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-date">April 10, 2025</span>
-                                <span class="blog-category">Maintenance</span>
-                            </div>
-                            <h2 class="blog-title">Seasonal Garden Maintenance Guide</h2>
-                            <p class="blog-excerpt">A comprehensive guide to keeping your garden healthy throughout the year. From spring planting to winter protection, learn essential maintenance practices for every season.</p>
-                            <a href="#" class="read-more" data-post-id="post-3">Read more</a>
-                        </div>
-                    </article>
-
-                    <!-- post-7 -->
-                    <article class="blog-post" data-category="maintenance">
-                        <div class="blog-image">
-                            <img src="./assets/images/portfolio_img3.jpeg" alt="Water-Wise Gardening Tips" loading="lazy">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-date">December 5, 2024</span>
-                                <span class="blog-category">Maintenance</span>
-                            </div>
-                            <h2 class="blog-title">Water-Wise Gardening Tips</h2>
-                            <p class="blog-excerpt">Learn how to create a beautiful garden that conserves water. Discover drought-tolerant plants, efficient irrigation systems, and smart watering strategies for sustainable landscapes.</p>
-                            <a href="#" class="read-more" data-post-id="post-7">Read more</a>
-                        </div>
-                    </article>
-
-                    <!-- placeholder -->
-                    <article class="blog-post blog-placeholder">
-                        <div class="blog-image">
-                            <div class="image-placeholder">More posts coming</div>
-                        </div>
-                        <div class="blog-content">
-                            <h2 class="blog-title">More Maintenance Tips</h2>
-                            <p class="blog-excerpt">We're adding more content to this topic — check back soon for additional maintenance guides and tips.</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-
-            <div class="topic-group">
-                <h2 class="topic-title">Lawn Care & Mowing</h2>
-                <div class="topic-row">
-                    <!-- post-1 -->
-                    <article class="blog-post" data-category="trends">
-                        <div class="blog-image">
-                            <img src="./assets/images/demo_img1.jpg" alt="Summer Garden Trends 2025" loading="lazy">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-date">June 15, 2025</span>
-                                <span class="blog-category">Trends</span>
-                            </div>
-                            <h2 class="blog-title">Summer Garden Trends 2025</h2>
-                            <p class="blog-excerpt">Discover the latest trends in sustainable garden design and outdoor living spaces. From native plant gardens to smart irrigation systems, explore what's shaping modern landscape design.</p>
-                            <a href="#" class="read-more" data-post-id="post-1">Read more</a>
-                        </div>
-                    </article>
-
-                    <!-- post-6 -->
-                    <article class="blog-post" data-category="trends">
-                        <div class="blog-image">
-                            <img src="./assets/images/portfolio_img2.jpg" alt="Sustainable Landscape Design Principles" loading="lazy">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-date">January 20, 2025</span>
-                                <span class="blog-category">Trends</span>
-                            </div>
-                            <h2 class="blog-title">Sustainable Landscape Design Principles</h2>
-                            <p class="blog-excerpt">Explore eco-friendly approaches to landscape design that reduce water usage, support local ecosystems, and create beautiful spaces that benefit both people and the environment.</p>
-                            <a href="#" class="read-more" data-post-id="post-6">Read more</a>
-                        </div>
-                    </article>
-
-                    <!-- placeholder -->
-                    <article class="blog-post blog-placeholder">
-                        <div class="blog-image">
-                            <div class="image-placeholder">More posts coming</div>
-                        </div>
-                        <div class="blog-content">
-                            <h2 class="blog-title">More Trends</h2>
-                            <p class="blog-excerpt">We're curating more trend pieces — stay tuned for seasonal and design trend updates.</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-
-            <div class="topic-group">
-                <h2 class="topic-title">Irrigation System Installation</h2>
-                <div class="topic-row">
-                    <!-- post-5 -->
-                    <article class="blog-post" data-category="projects">
-                        <div class="blog-image">
-                            <img src="./assets/images/portfolio_img1.jpg" alt="Urban Oasis Project Case Study" loading="lazy">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-date">February 15, 2025</span>
-                                <span class="blog-category">Projects</span>
-                            </div>
-                            <h2 class="blog-title">Urban Oasis Project Case Study</h2>
-                            <p class="blog-excerpt">Take a behind-the-scenes look at how we transformed a compact downtown space into a lush, multi-level garden. Learn about the challenges and solutions in urban landscape design.</p>
-                            <a href="#" class="read-more" data-post-id="post-5">Read more</a>
-                        </div>
-                    </article>
-
-                    <!-- post-9 -->
-                    <article class="blog-post" data-category="projects">
-                        <div class="blog-image">
-                            <img src="./assets/images/demo_img2.jpg" alt="Family Backyard Transformation" loading="lazy">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-date">October 12, 2024</span>
-                                <span class="blog-category">Projects</span>
-                            </div>
-                            <h2 class="blog-title">Family Backyard Transformation</h2>
-                            <p class="blog-excerpt">See how we designed a multi-functional backyard that accommodates both children's play areas and adult relaxation zones, creating a space the whole family can enjoy.</p>
-                            <a href="#" class="read-more" data-post-id="post-9">Read more</a>
-                        </div>
-                    </article>
-
-                    <!-- placeholder -->
-                    <article class="blog-post blog-placeholder">
-                        <div class="blog-image">
-                            <div class="image-placeholder">More posts coming</div>
-                        </div>
-                        <div class="blog-content">
-                            <h2 class="blog-title">More Projects</h2>
-                            <p class="blog-excerpt">More project case studies are on the way — check back for detailed build notes and galleries.</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-
-            <div class="topic-group">
-                <h2 class="topic-title">Terrace Construction & Outdoor Grading</h2>
-                <div class="topic-row">
-                    <!-- post-5 -->
-                    <article class="blog-post" data-category="projects">
-                        <div class="blog-image">
-                            <img src="./assets/images/portfolio_img1.jpg" alt="Urban Oasis Project Case Study" loading="lazy">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-date">February 15, 2025</span>
-                                <span class="blog-category">Projects</span>
-                            </div>
-                            <h2 class="blog-title">Urban Oasis Project Case Study</h2>
-                            <p class="blog-excerpt">Take a behind-the-scenes look at how we transformed a compact downtown space into a lush, multi-level garden. Learn about the challenges and solutions in urban landscape design.</p>
-                            <a href="#" class="read-more" data-post-id="post-5">Read more</a>
-                        </div>
-                    </article>
-
-                    <!-- post-9 -->
-                    <article class="blog-post" data-category="projects">
-                        <div class="blog-image">
-                            <img src="./assets/images/demo_img2.jpg" alt="Family Backyard Transformation" loading="lazy">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-date">October 12, 2024</span>
-                                <span class="blog-category">Projects</span>
-                            </div>
-                            <h2 class="blog-title">Family Backyard Transformation</h2>
-                            <p class="blog-excerpt">See how we designed a multi-functional backyard that accommodates both children's play areas and adult relaxation zones, creating a space the whole family can enjoy.</p>
-                            <a href="#" class="read-more" data-post-id="post-9">Read more</a>
-                        </div>
-                    </article>
-
-                    <!-- placeholder -->
-                    <article class="blog-post blog-placeholder">
-                        <div class="blog-image">
-                            <div class="image-placeholder">More posts coming</div>
-                        </div>
-                        <div class="blog-content">
-                            <h2 class="blog-title">More Projects</h2>
-                            <p class="blog-excerpt">More project case studies are on the way — check back for detailed build notes and galleries.</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-
-            <!-- Load More Button -->
-            <div class="blog-pagination">
-                <button class="btn btn-outline load-more-btn">Load More Posts</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Newsletter Section -->
-    <section class="newsletter-section">
-        <div class="container">
-            <div class="newsletter-content">
-                <h2>Stay Updated</h2>
-                <p>Subscribe to our newsletter for the latest design tips, project updates, and garden inspiration delivered to your inbox.</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Enter your email address" required>
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog Post Modal -->
-    <div class="blog-modal" id="blog-modal">
-        <div class="blog-modal-content">
-            <span class="close-blog-modal">&times;</span>
-            <div class="blog-modal-body">
-                <div class="blog-modal-image">
-                    <img id="modal-blog-image" src="" alt="">
-                </div>
-                <div class="blog-modal-info">
-                    <div class="blog-modal-meta">
-                        <span id="modal-blog-date"></span>
-                        <span id="modal-blog-category"></span>
+    <header class="header">
+            <div class="header-container">
+                <a href="./index.html" class="logo-section">
+                    <span class="material-symbols-outlined logo-icon">landscape</span>
+                    <h2 class="logo-text">PARAGON Landscapes</h2>
+                </a>
+                
+                <nav class="nav-desktop">
+                    <div class="nav-links">
+                        <a href="./index.html">home</a>
+                        <a href="./about.html">about us</a>
+                        <a href="./services.html">Services</a>
+                        <a href="#">Portfolio</a>
+                        <a href="./blog.html" class="active">blog</a>
                     </div>
-                    <h2 id="modal-blog-title"></h2>
-                    <div id="modal-blog-content" class="blog-modal-full-content">
-                        <!-- Full blog content will be inserted here -->
-                    </div>
+                    <button class="btn-primary">Inquire</button>
+                </nav>
+                
+                <div class="nav-mobile">
+                    <span class="material-symbols-outlined">menu</span>
                 </div>
             </div>
+        </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge">The Paragon Journal</span>
+            <h1 class="hero-title">Cultivating Excellence</h1>
+            <p class="hero-subtitle">Insights on landscape architecture, premium care, and the art of outdoor living.</p>
+            
+            <div class="search-wrapper">
+                <div class="search-glow"></div>
+                <div class="search-box">
+                    <span class="material-symbols-outlined search-icon">search</span>
+                    <input type="text" placeholder="Search topics, articles, or keywords..." class="search-input">
+                    <button class="search-btn">
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="popular-tags">
+                <span>Popular:</span>
+                <a href="#">Sustainable Design</a>
+                <a href="#">Native Plants</a>
+                <a href="#">Modern Patios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        <div class="container">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-content">
+                    <div class="sidebar-header">
+                        <h3>Topics</h3>
+                        <p>Browse by Category</p>
+                    </div>
+                    <nav class="sidebar-nav">
+                        <a href="#architecture" class="active">
+                            <span class="material-symbols-outlined">architecture</span>
+                            <span>Architecture & Design</span>
+                        </a>
+                        <a href="#sod">
+                            <span class="material-symbols-outlined">grass</span>
+                            <span>Sod Installation</span>
+                        </a>
+                        <a href="#lawn">
+                            <span class="material-symbols-outlined">yard</span>
+                            <span>Lawn Care & Mowing</span>
+                        </a>
+                        <a href="#irrigation">
+                            <span class="material-symbols-outlined">water_drop</span>
+                            <span>Irrigation Systems</span>
+                        </a>
+                        <a href="#terrace">
+                            <span class="material-symbols-outlined">deck</span>
+                            <span>Terrace Construction</span>
+                        </a>
+                        <a href="#lighting">
+                            <span class="material-symbols-outlined">lightbulb</span>
+                            <span>Lighting Design</span>
+                        </a>
+                        <a href="#maintenance">
+                            <span class="material-symbols-outlined">content_cut</span>
+                            <span>Garden Maintenance</span>
+                        </a>
+                        <a href="#hardscaping">
+                            <span class="material-symbols-outlined">unpaved_road</span>
+                            <span>Hardscaping</span>
+                        </a>
+                        <a href="#decorative">
+                            <span class="material-symbols-outlined">local_florist</span>
+                            <span>Decorative Features</span>
+                        </a>
+                        <a href="#luxury">
+                            <span class="material-symbols-outlined">diamond</span>
+                            <span>Luxury Services</span>
+                        </a>
+                        <a href="#import">
+                            <span class="material-symbols-outlined">flight</span>
+                            <span>Plant Import Service</span>
+                        </a>
+                    </nav>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="main-content">
+                <!-- Architecture Section -->
+                <section class="content-section" id="architecture">
+                    <div class="section-header">
+                        <span class="material-symbols-outlined">architecture</span>
+                        <h2>Landscape Architecture & Design</h2>
+                    </div>
+                    <div class="article-grid-3">
+                        <article class="article-card">
+                            <div class="article-image">
+                                <div class="article-img-bg" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuANjw_dyX0AktDe0tELKSskfMyk__K7UoXAuZyI8-RecWaL8IdKrCHE8RDgN1Ifj8csmr8Te7IbzUZ58XnnzJcD4m5Sh-pnSEeV4jYNTSurYzB4auYEvydS41ulV0uKHqBuctkP5eUnbpXelZIbYetsjJo_AD37bRcEdUNd-Aoh5gXo0M4cZwHXJRoFphlQskup_NhK77o1GRqLQ-CZbrAjfWNY9nkgbZOEKMHME9DI91QU4P3Cw47mmG2jSJThJ_IoJ-mizM8qnHM');"></div>
+                            </div>
+                            <div class="article-body">
+                                <div class="article-meta">
+                                    <span>April 12, 2023</span> • <span>5 min read</span>
+                                </div>
+                                <h3 class="article-title">Principles of Modern Minimalist Gardens</h3>
+                                <p class="article-excerpt">Explore how structural rigidity meets organic textures in our latest residential projects, creating spaces that breathe.</p>
+                                <div class="article-footer">
+                                    <span class="article-link">
+                                        Read Article <span class="material-symbols-outlined">arrow_forward</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="article-card">
+                            <div class="article-image">
+                                <div class="article-img-bg" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAnxWYZsWxkISnQI0_ms80PY3DMPZqv3eYtBEFPvMGtHVnbKvbucpbM74eRri4jcGTy7u6kL_-g8ULWNwp72HJq3MtiSRKkiLu1midzeGAGZb1e-CWIPOYAIqqM5jTmyOGGu00mBuqb9dtE3uvKPmQgf8AE_6P2RJrOxYtXuoM1isNJY8OS-qYHAoQW9_YFSk1KHxaNR9pmxBRhOzYjnaqGEJlUZKIPjSiUB4ebspO6f7TXPKrvnJms0SEn9qge7znkx5AwVbcPQd8');"></div>
+                            </div>
+                            <div class="article-body">
+                                <div class="article-meta">
+                                    <span>May 05, 2023</span> • <span>7 min read</span>
+                                </div>
+                                <h3 class="article-title">Balancing Hardscape and Softscape</h3>
+                                <p class="article-excerpt">A deep dive into the ratio of paved surfaces to living greenery for optimal drainage and aesthetic flow.</p>
+                                <div class="article-footer">
+                                    <span class="article-link">
+                                        Read Article <span class="material-symbols-outlined">arrow_forward</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="article-card">
+                            <div class="article-image">
+                                <div class="article-img-bg" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA50txwmVeUv5iS3HSOnANNvoqSmqOdQnwvSqGX7Xo-tHTpDTfDxn7al4GYKOevsXmJnWJgJIxpONJm2vDNli8OlPKoFDBAEJGdGmvJWRDvqzIzG0lxYQsEQdSvnKymIRz6_YX6Yzc_TTknK3QDM4eroWrlRC9BRtk2mIQi29J7EHd2-6YmrOp9iRng5wq1x6g_H1Y9kHLOSSnfCV5rna5ppUkVSrEQzMcKlIYYNhJyldRJbqn6n1plUT29vgQF3rPTV0RjK3CbIHM');"></div>
+                            </div>
+                            <div class="article-body">
+                                <div class="article-meta">
+                                    <span>May 22, 2023</span> • <span>4 min read</span>
+                                </div>
+                                <h3 class="article-title">Integrating Water Features</h3>
+                                <p class="article-excerpt">From koi ponds to modern fountains, how water brings tranquility to architectural landscapes.</p>
+                                <div class="article-footer">
+                                    <span class="article-link">
+                                        Read Article <span class="material-symbols-outlined">arrow_forward</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Sod Section -->
+                <section class="content-section" id="sod">
+                    <div class="section-header">
+                        <span class="material-symbols-outlined">grass</span>
+                        <h2>Sod Installation</h2>
+                    </div>
+                    <div class="article-grid-2">
+                        <article class="article-horizontal">
+                            <div class="article-h-image">
+                                <div class="article-img-bg" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB2uU4G_4ZpbUhs1oJnwgR05csAXNHCcdn3HXJYuXkiM55_dibquC4bydzKAc_W6gGUAaUDVx45B9HubbgywgrYnIlDCz7DxDzJtEBecLrzC9IaaR-9WfvljV3dfOpfZ00Y_dA5rDlUY0U9psfuyK_zLLrmnHrf_On7RufYfk8fPdqwgAtoLrzxL1uWyalm_MasG-TKXN6OAEmaJvxMD3aDiA_rHNKBxZdZvT2hSR6hfloMgbi-beBuVej66-kCzIkboY8WgfDIsWg');"></div>
+                            </div>
+                            <div class="article-h-body">
+                                <div class="article-meta">
+                                    <span>June 10, 2023</span>
+                                </div>
+                                <h3 class="article-h-title">Choosing the Right Grass Type</h3>
+                                <p class="article-h-excerpt">Bermuda vs. Zoysia: Making the right choice for your soil acidity and sunlight exposure.</p>
+                                <span class="article-link">
+                                    Read Article <span class="material-symbols-outlined">arrow_forward</span>
+                                </span>
+                            </div>
+                        </article>
+
+                        <article class="article-horizontal">
+                            <div class="article-h-image">
+                                <div class="article-img-bg" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA88_yFp8y1MTSzm_hwwVRt0cCtzzKjwZq2S-noEa-75AM9N1F36oaDVN1mLnV0FHtK9_ltG0fU4jd9C8RjBNM4Lop3xnpPBmEWixxf1EjrOFjaaEjhfz9yZoXQAGrTna8UQIsczpOkDBU0J3UT2CQmCNoU6QqBjZ9zGFuGiF7FEJG7dOK-YhyDTpRt8MLs3mTPekcRuInDGCwsblBdxWeoAwK6AsfU9QHf01CjVJRciAYLg2WXKlIvxf2YC2mXQKhOCZvVcojTR74');"></div>
+                            </div>
+                            <div class="article-h-body">
+                                <div class="article-meta">
+                                    <span>June 15, 2023</span>
+                                </div>
+                                <h3 class="article-h-title">Post-Installation Care Guide</h3>
+                                <p class="article-h-excerpt">Critical watering schedules for the first two weeks to ensure successful root establishment.</p>
+                                <span class="article-link">
+                                    Read Article <span class="material-symbols-outlined">arrow_forward</span>
+                                </span>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Irrigation Section -->
+                <section class="content-section" id="irrigation">
+                    <div class="section-header">
+                        <span class="material-symbols-outlined">water_drop</span>
+                        <h2>Irrigation Systems</h2>
+                    </div>
+                    <div class="article-grid-3">
+                        <article class="article-compact">
+                            <div class="article-compact-image">
+                                <div class="article-img-bg" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuByY-fslaJai2ySgUmYNaaWLO7EVpNyX0FZgQYlYqAt686NGfHT9iP8zgMiiNR9XHWAuTQemKQN7Wp2WSRKKSBOpNj2JtcQbl8XAQOREULS0vYmQrdOSEgF9h0U5C055raZZ_TX7SNEfGW6eO-QYi5fs33tfl6x5XrTaQ2ccXv8E2A6BuFA3BjrxIt4tjjMATTAGgL6mrqR8kTQv99pg1VGwsowcIj_ADuLJ0RXoPM9K1jicqcsVpNplfIsySrBUQ3elCeYXw0_yv0');"></div>
+                            </div>
+                            <h3 class="article-compact-title">Smart Irrigation Tech</h3>
+                            <p class="article-compact-excerpt">Using IoT sensors to reduce water waste by up to 40%.</p>
+                            <span class="article-tag">Technology</span>
+                        </article>
+
+                        <article class="article-compact">
+                            <div class="article-compact-image">
+                                <div class="article-img-bg" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDsFCjhBiuA2g2PcB_dnrtKFtnlFrqM7lPj3Vz6MXLkNj9QqOdO8B8tCRcwl6tTQ-Cgrfw13Np38EQ2z5q8AEwHywXxqUd_0R2FJZUL79eZ6aRC-ETOZK-im_PF1I09NCPKIptf0Iqn1vmbVY5yktzDnEOEXdquoZZ_SWc1rNyvtmZ7c7jgNDyGj_VVfE8h7g_M9iAVUcgCUnfqxLcWIiaGVkI49M8N17q1jrwD3G_FksCkUN4YJYuKazCSIZyesJEzC8TuSZ_iVX4');"></div>
+                            </div>
+                            <h3 class="article-compact-title">Drip vs. Spray</h3>
+                            <p class="article-compact-excerpt">Why drip systems are superior for flower beds and shrubs.</p>
+                            <span class="article-tag">Efficiency</span>
+                        </article>
+
+                        <article class="article-compact">
+                            <div class="article-compact-image">
+                                <div class="article-img-bg" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDnZZ0uDR3F6kd78TsrqadU3O1OXHtOzw2gIJaaId8SeZeVk6DqvUZZknduwyRhFf8j0ouTO16UASVutkHwbzQt0onC712SuHt64ULHGuSbvfoikqXL7wKwNv7VKyn-38uFQhD7pC1bMCN5mk8MmjPyEagGdM_akQmK7VQ2oxFj_1HvC738HtD7wpkUAks4pf7oep4HTxBTYUpMuPIhQWH7kmsJXbkuCOsTPzRx1HJ2nWf8UlD_KZN9Rza9_MgD3QItZX4F1hwGNOA');"></div>
+                            </div>
+                            <h3 class="article-compact-title">Winterization</h3>
+                            <p class="article-compact-excerpt">Protecting your pipes from freezing temperatures.</p>
+                            <span class="article-tag">Maintenance</span>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Luxury Featured Section -->
+                <section class="content-section" id="luxury">
+                    <div class="section-header">
+                        <span class="material-symbols-outlined">diamond</span>
+                        <h2>Exclusive Luxury Services</h2>
+                    </div>
+                    <article class="article-featured">
+                        <div class="featured-bg" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAm8qpdg4m9BDVJnFSeiadvz1MUcJlTEQt0JOYutvh0pSoHuWFrAgZQWfHcI_R3IngrDyWMLCMstSnSHG9-v6-M3ztKWxFiA4CWzquZFsmHkTawJXpedxx1i8FbmbA8m1in0Qe0LH05cEd2sKUG__WGvHANuYhF-2BsG1C4k-qlV0XowJE4igYjVvGwNpOYGrhkg9i_D2xswxmRdZda94gT1b97PJh9V0G-OnN0eSnsyOB5jF-VpJzRb_qbdh73x74Gfz5J8TZ5fLE');"></div>
+                        <div class="featured-overlay"></div>
+                        <div class="featured-content">
+                            <div class="featured-meta">
+                                <span class="featured-badge">Featured</span>
+                                <span>Design Masterclass</span>
+                            </div>
+                            <h3 class="featured-title">Creating Resort-Style Outdoor Living Spaces</h3>
+                            <p class="featured-excerpt">Our approach to designing private retreats that rival 5-star hotels, featuring infinity pools, outdoor kitchens, and private grottos.</p>
+                            <button class="featured-btn">
+                                Read Full Feature <span class="material-symbols-outlined">arrow_forward</span>
+                            </button>
+                        </div>
+                    </article>
+                </section>
+
+                <!-- Plant Import Section -->
+                <section class="content-section" id="import">
+                    <div class="section-header">
+                        <span class="material-symbols-outlined">flight</span>
+                        <h2>Plant Import Service</h2>
+                    </div>
+                    <div class="article-grid-2">
+                        <article class="article-list">
+                            <div class="article-list-image">
+                                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaMaLTZh-HwsqqkRnAGGNhh_N_mro91MMHcGfX0Kw5uNuvU7QXNwEUwEZxEaCSxIsFV_4A5p6gmuSoRKip8YTDnWB1v_KH_9SeZ7i40la-EtCEKsAlzuVPKb640r-akAQBIJtVR9neUM_BEykkB6nrm6SOvNf5LwD2Mfs-xljBudbtl93RMasezusqxrYfrE5OuhoIuGY2-XYEy0wX05MzaVPmS40o_R1ycmkZrWPNvA6gPhRNwmGJSskY9GLREOl8hI0IN38_DUs" alt="Exotic bonsai tree">
+                            </div>
+                            <div class="article-list-body">
+                                <h3 class="article-list-title">Sourcing Japanese Maples</h3>
+                                <p class="article-list-excerpt">Navigating international regulations to bring authentic specimen trees to your estate.</p>
+                            </div>
+                        </article>
+
+                        <article class="article-list">
+                            <div class="article-list-image">
+                                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRtoEV9JDOIWoFYqBaZslBaR6eM7Qr_OoMIj5O6K0se4Ck2HWVMimCjPD4zPc9p1ZUpKoS8IHtldmKSX63HVDt7qEgthy8QHX-C-KS0RUbtoy17ShF2Vnasenw3yPkjy7ixCYe-tpW0gw6bgBMm2uqSUMGTzVEMQFVv7Dmm5BmF8S2nxXpzUvtdZIe5C4v7D3G9kdv9DYWzZCUVUqyPOK_oKUL-K9_VBhY85ArVMAq6HfKo-7pHHV4ZNSLUaHvrIZNJBfDMP1heu4" alt="Olive tree in pot">
+                            </div>
+                            <div class="article-list-body">
+                                <h3 class="article-list-title">Mediterranean Olive Trees</h3>
+                                <p class="article-list-excerpt">Acclimatizing ancient olive trees for successful transplantation in diverse climates.</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </main>
         </div>
     </div>
 
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="container">
-            <h2>Ready to Transform Your Outdoor Space?</h2>
-            <p>Let's discuss how we can bring your vision to life</p>
-            <a href="contact.html" class="btn btn-primary">Get in Touch</a>
-        </div>
-    </section>
-
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-about">
-                    <h3>GreenOasis Gardens</h3>
-                    <p>Creating beautiful, sustainable outdoor spaces that connect people with nature through thoughtful design and expert craftsmanship.</p>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span>PARAGON Landscapes</span>
+                    </div>
+                    <p class="footer-desc">Redefining outdoor spaces through architectural precision and organic beauty. We serve discerning clients who value excellence and sustainability.</p>
+                    <div class="footer-social">
+                        <a href="#"><span class="material-symbols-outlined">public</span></a>
+                        <a href="#"><span class="material-symbols-outlined">photo_camera</span></a>
+                        <a href="#"><span class="material-symbols-outlined">mail</span></a>
+                    </div>
                 </div>
-                <div class="footer-contact">
-                    <h4>Contact</h4>
-                    <p>+995 510 00 44 99</p>
-                    <p>Info@paragonlandscape.ge</p>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Landscape Design</a></li>
+                        <li><a href="#">Hardscaping</a></li>
+                        <li><a href="#">Irrigation Solutions</a></li>
+                        <li><a href="#">Garden Maintenance</a></li>
+                        <li><a href="#">Luxury Installations</a></li>
+                    </ul>
                 </div>
-                <div class="footer-social">
-                    <h4>Follow Us</h4>
-                    <div class="card">
-                    <a class="socialContainer containerOne" href="https://www.instagram.com/paragon_landscape/" target="_blank">
-                        <svg viewBox="0 0 16 16" class="socialSvg instagramSvg"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path> </svg>
-                    </a>
-                    <a class="socialContainer containerTwo" href="https://www.facebook.com/profile.php?id=61584730146091" target="_blank">
-                        <svg viewBox="0 0 640 640" class="socialSvg facebookSvg"> <path d="M240 363.3L240 576L356 576L356 363.3L442.5 363.3L460.5 265.5L356 265.5L356 230.9C356 179.2 376.3 159.4 428.7 159.4C445 159.4 458.1 159.8 465.7 160.6L465.7 71.9C451.4 68 416.4 64 396.2 64C289.3 64 240 114.5 240 223.4L240 265.5L174 265.5L174 363.3L240 363.3z"></path> </svg></a>
-                        
-                    <a class="socialContainer containerThree" href="https://www.linkedin.com/company/paragonlandscape/" target="_blank">
-                        <svg viewBox="0 0 448 512" class="socialSvg linkdinSvg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
-                    </a>
-                    
-                    <a class="socialContainer containerFour" href="#" target="_blank">
-                        <svg viewBox="0 0 16 16" class="socialSvg whatsappSvg"> <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path> </svg>
-                    </a>
+
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press & Awards</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p class="newsletter-text">Subscribe for seasonal tips and design inspiration.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Email address">
+                        <button>
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </button>
                     </div>
                 </div>
             </div>
+
             <div class="footer-bottom">
-                <p>&copy; 2025 PARAGON Landscapes. All rights reserved.</p>
+                <p>© 2024 Paragon Landscapes. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
             </div>
         </div>
     </footer>
-
-    <script src="js/main.js"></script>
-    <script src="js/blog.js"></script>
 </body>
 </html>
-

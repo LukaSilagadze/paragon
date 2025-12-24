@@ -3,104 +3,222 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PARAGON | Landscape for Life</title>
+    <title>PARAGON Landscapes | Premium Landscape Architecture</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css  ">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="assets/images/paragon.svg" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/dc2d1e509b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header id="main-header">
-        <div class="container">
-            <div class="logo-container">
-                <img src="assets/images/paragon.svg" alt="paragon logo" class="logo-icon">
-                <div class="logo">
-                    <a href="index.html">PARAGON</a>
-                    <span>Landscape for Life</span>
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-container">
+                <a href="./index.html" class="logo-section">
+                    <span class="material-symbols-outlined logo-icon">landscape</span>
+                    <h2 class="logo-text">PARAGON Landscapes</h2>
+                </a>
+                
+                <nav class="nav-desktop">
+                    <div class="nav-links">
+                        <a href="./index.html" class="active">home</a>
+                        <a href="./about.html">about us</a>
+                        <a href="./services.html">Services</a>
+                        <a href="#">Portfolio</a>
+                        <a href="./blog.html">blog</a>
+                    </div>
+                    <button class="btn-primary">Inquire</button>
+                </nav>
+                
+                <div class="nav-mobile">
+                    <span class="material-symbols-outlined">menu</span>
                 </div>
             </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </header>
+        </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="slideshow-container">
-            <div class="bg_posters active">
-                <img src="./assets/slider_images/slider_img1.jpg" style="object-fit: fill;" class="slider_images">
-            </div>
-            <div class="bg_posters">
-                <img src="./assets/slider_images/slider_img2.jpg" style="object-fit: fill;" class="slider_images">
-            </div>
-            <div class="bg_posters">
-                <img src="./assets/slider_images/slider_img3.jpg" style="object-fit: fill;" class="slider_images">
-            </div>
-            <div class="bg_posters">
-                <img src="./assets/slider_images/slider_img4.jpg" style="object-fit: fill;" class="slider_images">
-            </div>
-            <div class="bg_posters">
-                <img src="./assets/slider_images/slider_img5.jpg" style="object-fit: fill;" class="slider_images">
-            </div>
-        </div>
-        <div class="slideshow-indicators">
-            <span class="indicator-dot active" data-slide="0"></span>
-            <span class="indicator-dot" data-slide="1"></span>
-            <span class="indicator-dot" data-slide="2"></span>
-            <span class="indicator-dot" data-slide="3"></span>
-            <span class="indicator-dot" data-slide="4"></span>
-        </div>
-        <div class="hero-content">
-            <h1>Contemporary Backyard & Garden Design </h1>
-            <h2>Flawless of landscaping & Gardening works</h2>
-        </div>
-    </section>
-<!-- 
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-about">
-                    <h3>PARAGON</h3>
-                    <p>Creating beautiful, sustainable outdoor spaces that connect people with nature through thoughtful design and expert craftsmanship.</p>
+        <!-- Main Content -->
+        <main>
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-bg"></div>
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">Designing Living Sanctuaries</h1>
+                        <h2 class="hero-subtitle">Award-winning landscape architecture for modern estates.</h2>
+                    </div>
+                    <button class="btn-hero">
+                        <span>View Portfolio</span>
+                        <span class="material-symbols-outlined arrow">arrow_forward</span>
+                    </button>
                 </div>
-                <div class="footer-contact">
-                    <h4>Contact</h4>
-                    <p>+1 (555) 123-4567</p>
-                    <p>info@greenoasisgardens.com</p>
-                    <p>123 Garden Lane, Greenville</p>
+            </section>
+
+            <!-- Philosophy Section -->
+            <section class="philosophy">
+                <div class="philosophy-content">
+                    <span class="philosophy-label">Our Philosophy</span>
+                    <h2 class="philosophy-title">Balancing nature and structure to create timeless outdoor spaces.</h2>
+                    <div class="philosophy-divider"></div>
                 </div>
-                <div class="footer-social">
-                    <h4>Follow Us</h4>
-                    <div class="social-links">
-                        <a href="#" aria-label="Instagram">Instagram</a>
-                        <a href="#" aria-label="Pinterest">Pinterest</a>
-                        <a href="#" aria-label="Facebook">Facebook</a>
+            </section>
+
+            <!-- Selected Works Section -->
+            <section class="works">
+                <div class="works-header">
+                    <h3>Selected Works</h3>
+                </div>
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-img-bg" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDUnmmRhMZUXMTzv3_Ww-uMX6t1zW9RWTz6XYMhvJw5JG6QahrtnPH-Ma7P9NmD-Eeap3KLckU9HtMjw5gfWnIgEEqJMCs7jmuKSWb1pRCw3vhtKfp-mLuHpw7cpNeiu6OELbxHiBqU0OXGzMFCY6LwqUMNEl9_1Ax1sFahCUbzkh71BSUNH3iRkX_K1qL9Fbwu2TvrU_wrgTL1UZmX7ttIZfWdlhIH0G_ufjVI0vytqvsrFeRwPnoMM6kfW6sFf6K2FnbU4qrhGSY');"></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Residential</span>
+                        <h3 class="project-title">The Highland Estate</h3>
+                        <p class="project-description">A modern patio integration with native planting, seamlessly blending interior luxury with the raw beauty of the highlands.</p>
+                        <a href="#" class="project-link">
+                            EXPLORE PROJECT
+                            <span class="material-symbols-outlined arrow">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card project-reverse">
+                    <div class="project-info project-info-alt">
+                        <span class="project-category">Commercial</span>
+                        <h3 class="project-title">Apex Headquarters</h3>
+                        <p class="project-description">Sustainable corporate courtyard design focused on employee well-being, featuring water elements and shade structures.</p>
+                        <a href="#" class="project-link">
+                            EXPLORE PROJECT
+                            <span class="material-symbols-outlined arrow">arrow_forward</span>
+                        </a>
+                    </div>
+                    <div class="project-image">
+                        <div class="project-img-bg" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBOgqJet9lT-TLGCh7UpQZ8X9sHKCOE9tcCT_8ShVuI902B-gdZsKmNtVc7Sg6wdsIFsKc_fW582BJQbNrIb10fBT1UKxHYex-zLmnzKwxZ3ZH-wLCsVkYVS8mwSDJ9hEeTG2cm-OsJJDFPzmQ7bKDNZGD4MJ6sIaLmAU91InjZqpOl5MvC7wI9HXJZxjDlR0uEf1yMbjvZPaHufKVpsKou868DJA5GF7h_V43beH1y71kosXIjQMGJED5HXmHvpFoD-B-Oirt8ewg');"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section class="services">
+                <div class="services-container">
+                    <div class="services-header">
+                        <h2>Comprehensive Expertise</h2>
+                        <p>From conceptual vision to technical execution, we provide end-to-end landscape architecture solutions.</p>
+                    </div>
+                    
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <span class="material-symbols-outlined">map</span>
+                            </div>
+                            <div class="service-content">
+                                <h3>Master Planning</h3>
+                                <p>Strategic long-term site development taking into account topography, climate, and usage patterns.</p>
+                            </div>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <span class="material-symbols-outlined">architecture</span>
+                            </div>
+                            <div class="service-content">
+                                <h3>Hardscaping</h3>
+                                <p>Structural elements, paving design, retaining walls, and architectural features that define space.</p>
+                            </div>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <span class="material-symbols-outlined">potted_plant</span>
+                            </div>
+                            <div class="service-content">
+                                <h3>Horticulture</h3>
+                                <p>Plant palette selection and garden curation focusing on native species and seasonal interest.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta">
+                <div class="cta-pattern"></div>
+                <div class="cta-content">
+                    <h2>Ready to transform your outdoor space?</h2>
+                    <p>Let's discuss how we can bring your vision to life with sustainable, luxury design.</p>
+                    <button class="btn-cta">Start a Project</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <div class="footer-logo">
+                            <span class="material-symbols-outlined">landscape</span>
+                            <h2>PARAGON Landscapes</h2>
+                        </div>
+                        <p class="footer-desc">Creating timeless landscapes that bridge the gap between human architecture and the natural world.</p>
+                        <div class="footer-social">
+                            <a href="#">IG</a>
+                            <a href="#">LI</a>
+                            <a href="#">PI</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Explore</h3>
+                        <nav class="footer-nav">
+                            <a href="#">Portfolio</a>
+                            <a href="#">Our Services</a>
+                            <a href="#">The Studio</a>
+                            <a href="#">Journal</a>
+                            <a href="#">Careers</a>
+                        </nav>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Contact</h3>
+                        <div class="footer-contact">
+                            <p>
+                                <span class="material-symbols-outlined">location_on</span>
+                                1200 Green Valley Rd, Suite 400<br>Austin, TX 78704
+                            </p>
+                            <p>
+                                <span class="material-symbols-outlined">call</span>
+                                +1 (555) 012-3456
+                            </p>
+                            <p>
+                                <span class="material-symbols-outlined">mail</span>
+                                hello@paragonlandscapes.com
+                            </p>
+                        </div>
+                        <div class="footer-newsletter">
+                            <label for="newsletter">Subscribe to our newsletter</label>
+                            <div class="newsletter-form">
+                                <input type="email" id="newsletter" placeholder="Email address">
+                                <button>Join</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>© 2023 PARAGON Landscapes. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 PARAGON. All rights reserved.</p>
-            </div>
-        </div>
-    </footer> -->
-
-    <script src="js/main.js"></script>
+        </footer>
+    </div>
 </body>
 </html>
