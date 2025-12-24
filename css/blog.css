@@ -21,98 +21,11 @@ body {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
 }
 
-/* Header Styles */
-.header {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid #f4f4f0;
-  padding: 1rem 1.5rem;
-}
-
-.header-container {
-  max-width: 1280px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100%;
-}
-
-.logo-section {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  color: #2d5a27;
-}
-
-.logo-icon {
-  font-size: 1.875rem;
-}
-
-.logo-text {
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: -0.025em;
-  color: #2d5a27;
-}
-
-.nav-desktop {
-  display: none;
-  flex: 1;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 2.5rem;
-}
-
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.nav-links a {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #2d5a27;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.nav-links a:hover {
-  color: #8a9b6e;
-}
-
-.btn-primary {
-  min-width: 84px;
-  height: 2.5rem;
-  padding: 0 1.5rem;
-  background-color: #e6e665;
-  color: #171712;
-  font-size: 0.875rem;
-  font-weight: 700;
-  border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.btn-primary:hover {
-  transform: scale(1.05);
-}
-
-.nav-mobile {
-  display: block;
-  color: #2d5a27;
-}
 /* Hero Section */
 .hero {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -256,15 +169,15 @@ body {
   justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .popular-tags a {
-  color: rgba(255, 255, 255, 0.6);
+  color: white;
   text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.3);
+  text-decoration-color: rgba(255, 255, 255, 0.5);
   transition: all 0.3s;
 }
 
@@ -802,6 +715,7 @@ body {
 
 .footer-social {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
 }
 
@@ -838,51 +752,6 @@ body {
   color: #2c5926;
 }
 
-.newsletter-text {
-  color: #94a3b8;
-  font-size: 0.875rem;
-  margin-bottom: 1rem;
-}
-
-.newsletter-form {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.newsletter-form input {
-  flex: 1;
-  background-color: #1c241b;
-  border: 1px solid #2c332c;
-  color: white;
-  font-size: 0.875rem;
-  border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
-  outline: none;
-}
-
-.newsletter-form input:focus {
-  border-color: #2c5926;
-  box-shadow: 0 0 0 1px #2c5926;
-}
-
-.newsletter-form button {
-  background-color: #2c5926;
-  color: white;
-  border: none;
-  border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.newsletter-form button:hover {
-  background-color: rgba(44, 89, 38, 0.9);
-}
-
-.newsletter-form button .material-symbols-outlined {
-  font-size: 0.875rem;
-}
-
 .footer-bottom {
   padding-top: 2rem;
   border-top: 1px solid #2c332c;
@@ -908,7 +777,78 @@ body {
 .footer-links a:hover {
   color: #cbd5e1;
 }
+/* From Uiverse.io by PapaUiiss404 */
+.card {
+  width: fit-content;
+  height: fit-content;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
 
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: 0.3s;
+}
+/* facebook*/
+.containerTwo:hover {
+  background-color: #1877f2;
+  transition-duration: 0.3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: 0.3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128c7e;
+  transition-duration: 0.3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 /* Responsive Styles */
 @media (min-width: 640px) {
   .header-content {

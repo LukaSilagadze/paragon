@@ -30,102 +30,6 @@ body {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
 }
 
-.container {
-  max-width: 1152px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-  width: 100%;
-}
-
-/* Header */
-/* Header Styles */
-.header {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid #f4f4f0;
-  padding: 1rem 1.5rem;
-}
-
-.header-container {
-  max-width: 1280px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100%;
-}
-
-.logo-section {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  color: #2d5a27;
-}
-
-.logo-icon {
-  font-size: 1.875rem;
-}
-
-.logo-text {
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: -0.025em;
-  color: #2d5a27;
-}
-
-.nav-desktop {
-  display: none;
-  flex: 1;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 2.5rem;
-}
-
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.nav-links a {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #2d5a27;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.nav-links a:hover {
-  color: #8a9b6e;
-}
-
-.btn-primary {
-  min-width: 84px;
-  height: 2.5rem;
-  padding: 0 1.5rem;
-  background-color: #e6e665;
-  color: #171712;
-  font-size: 0.875rem;
-  font-weight: 700;
-  border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.btn-primary:hover {
-  transform: scale(1.05);
-}
-
-.nav-mobile {
-  display: block;
-  color: #2d5a27;
-}
-
 /* Hero Section */
 .hero {
   position: relative;
@@ -240,7 +144,7 @@ body {
 
 /* About Section */
 .about-section {
-  padding: 6rem 0;
+  padding: 6rem;
   background-color: #f6f7f6;
 }
 
@@ -329,7 +233,7 @@ body {
 
 /* Philosophy Section */
 .philosophy-section {
-  padding: 6rem 0;
+  padding: 6rem;
   background-color: white;
 }
 
@@ -572,7 +476,7 @@ body {
 
 /* Team Section */
 .team-section {
-  padding: 6rem 0;
+  padding: 6rem;
   background-color: white;
 }
 
@@ -617,17 +521,20 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  align-items: center;
 }
 
 .team-photo {
-  aspect-ratio: 3 / 4;
-  width: 100%;
+  aspect-ratio: 1 / 1;
+  width: 70%;
   background-color: #e5e7eb;
-  border-radius: 0.5rem;
+  border-radius: 50%;
   overflow: hidden;
   position: relative;
 }
-
+.team-info{
+  text-align: center;
+}
 .team-img {
   position: absolute;
   inset: 0;
@@ -653,7 +560,7 @@ body {
 
 /* Process Section */
 .process-section {
-  padding: 6rem 0;
+  padding: 6rem;
   background-color: #2c5926;
   color: white;
 }
