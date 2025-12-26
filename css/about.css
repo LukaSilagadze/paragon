@@ -871,3 +871,17 @@ body {
     font-size: 5rem;
   }
 }
+@media (max-width: 768px) {
+  .about-section {
+    padding: 2rem;
+  }
+  .philosophy-section {
+    padding: 2rem;
+  }
+  .team-section {
+    padding: 2rem;
+  }
+  .process-section {
+    padding: 2rem;
+  }
+}
