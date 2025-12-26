@@ -1,33 +1,3 @@
-// js/main.js
-
-// Auto Slider
-let slideIndex = 0;
-function autoSlider() {
-    let slides = document.getElementsByClassName("bg_posters");
-    let indicators = document.getElementsByClassName("indicator-dot");
-    
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].classList.remove("active");
-    }
-    
-    for (let i = 0; i < indicators.length; i++) {
-        indicators[i].classList.remove("active");
-    }
-    
-    slideIndex = slideIndex + 1;
-    
-    if (slideIndex > slides.length) {
-        slideIndex = 1;
-    }
-    if (slides[slideIndex - 1]) {
-        slides[slideIndex - 1].classList.add("active");
-    }
-    if (indicators[slideIndex - 1]) {
-        indicators[slideIndex - 1].classList.add("active");
-    }
-    setTimeout(autoSlider, 5000);
-}
-
 document.addEventListener('DOMContentLoaded', function() {
     // Header scroll effect
     const header = document.getElementById('main-header');
