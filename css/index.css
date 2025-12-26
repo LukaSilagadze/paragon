@@ -163,6 +163,7 @@
   height: 400px;
   width: 100%;
   overflow: hidden;
+  object-fit: cover;
 }
 
 .project-img-bg {
@@ -380,6 +381,7 @@
   border-radius: 0.5rem;
   cursor: pointer;
   transition: transform 0.2s;
+  padding: 0.7rem 1rem;
 }
 
 .btn-cta:hover {

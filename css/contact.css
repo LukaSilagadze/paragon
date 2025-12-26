@@ -246,6 +246,7 @@ body {
     height: 1px;
     width: 2rem;
     background-color: #2c5926;
+    margin-top: 0;
 }
 
 .header-label {
@@ -517,7 +518,11 @@ body {
     margin-left: 0.5rem;
     font-size: 1.125rem;
 }
-
+.footer-line{
+    height: 0.5px;
+    background-color: #dfe3de;
+    margin-top: 1rem;
+}
 /* Responsive Styles */
 @media (min-width: 768px) {
     .nav-desktop {
