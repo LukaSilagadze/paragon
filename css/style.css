@@ -581,6 +581,10 @@ body.no-scroll {
 
 /* Mobile Navigation Styles */
 @media (max-width: 768px) {
+  #main-header,
+  #main-header.scrolled {
+    padding: 1rem;
+  }
   .hamburger {
     display: flex;
   }
