@@ -685,7 +685,7 @@ body {
 .construction-overlay {
   position: fixed;
   inset: 0;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.247);
   backdrop-filter: blur(3px);
   z-index: 990; /* Below header (z-index: 1000) */
   display: flex;
