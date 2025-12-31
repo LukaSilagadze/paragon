@@ -931,7 +931,11 @@ body {
   .hero-content {
     margin-top: 95px;
   }
-  .popular-tags{
+  .popular-tags {
     display: none;
   }
+}
+
+.hidden {
+  display: none !important;
 }

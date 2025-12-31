@@ -440,7 +440,17 @@ body {
 .chat-button .material-symbols-outlined {
   font-size: 1rem;
 }
-
+.socialContainerContactPage {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: rgb(184, 183, 183);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
 /* Form Container */
 .contact-form-wrapper {
   width: 100%;

@@ -680,3 +680,45 @@ body {
     margin-top: 50px;
   }
 }
+
+/* Construction Overlay */
+.construction-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.247);
+  backdrop-filter: blur(3px);
+  z-index: 990; /* Below header (z-index: 1000) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.construction-content {
+  background-color: white;
+  padding: 2rem 4rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(44, 89, 38, 0.1);
+  border-radius: 0.5rem;
+}
+
+.construction-content p {
+  font-family: "Inter", sans-serif;
+  color: #2c5926;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+/* Responsive adjustments for overlay */
+@media (max-width: 768px) {
+  .construction-content {
+    padding: 1.5rem 2rem;
+    margin: 0 1.5rem;
+  }
+
+  .construction-content p {
+    font-size: 1.5rem;
+  }
+}
