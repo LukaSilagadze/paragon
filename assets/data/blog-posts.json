@@ -2,113 +2,441 @@
   {
     "id": 1,
     "category": "architecture",
-    "layout": "card",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuANjw_dyX0AktDe0tELKSskfMyk__K7UoXAuZyI8-RecWaL8IdKrCHE8RDgN1Ifj8csmr8Te7IbzUZ58XnnzJcD4m5Sh-pnSEeV4jYNTSurYzB4auYEvydS41ulV0uKHqBuctkP5eUnbpXelZIbYetsjJo_AD37bRcEdUNd-Aoh5gXo0M4cZwHXJRoFphlQskup_NhK77o1GRqLQ-CZbrAjfWNY9nkgbZOEKMHME9DI91QU4P3Cw47mmG2jSJThJ_IoJ-mizM8qnHM",
+    "image": "https://johnfrenchlandscapes.com.au/wp-content/uploads/2022/10/What-Is-The-Difference-Between-Landscape-Architecture-And-Landscape-Design.jpg",
     "date": "April 12, 2023",
     "readTime": "5 min read",
     "title": "Principles of Modern Minimalist Gardens",
-    "excerpt": "Explore how structural rigidity meets organic textures in our latest residential projects, creating spaces that breathe.",
-    "content": "<h3>The Art of Subtraction</h3><p>Minimalism isn't just about having less; it's about making room for more of what matters. In landscape architecture, this translates to clean lines, intentional negative space, and a restrained palette of materials.</p><h3>Structural Rigidity vs. Organic Form</h3><p>We often contrast strict geometric hardscaping—concrete pavers, steel planters—with the softness of ornamental grasses and native wildflowers. This tension creates visual interest without clutter.</p><h3>Key Elements</h3><ul><li><strong>Monochromatic Palette:</strong> Sticking to green, grey, and wood tones.</li><li><strong>Boulders:</strong> Using large stones as sculptural elements.</li><li><strong>Lighting:</strong> Subtle uplighting to highlight architectural trees.</li></ul>"
+    "excerpt": "Explore how structural rigidity meets organic textures in our latest residential projects.",
+    "content": "Minimalism isn't just about having less; it's about making room for more."
   },
   {
     "id": 2,
     "category": "architecture",
-    "layout": "card",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAnxWYZsWxkISnQI0_ms80PY3DMPZqv3eYtBEFPvMGtHVnbKvbucpbM74eRri4jcGTy7u6kL_-g8ULWNwp72HJq3MtiSRKkiLu1midzeGAGZb1e-CWIPOYAIqqM5jTmyOGGu00mBuqb9dtE3uvKPmQgf8AE_6P2RJrOxYtXuoM1isNJY8OS-qYHAoQW9_YFSk1KHxaNR9pmxBRhOzYjnaqGEJlUZKIPjSiUB4ebspO6f7TXPKrvnJms0SEn9qge7znkx5AwVbcPQd8",
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?q=80&w=800",
     "date": "May 05, 2023",
     "readTime": "7 min read",
     "title": "Balancing Hardscape and Softscape",
-    "excerpt": "A deep dive into the ratio of paved surfaces to living greenery for optimal drainage and aesthetic flow.",
-    "content": "<h3>Finding the Golden Ratio</h3><p>A healthy garden needs a balance between 'hard' elements (patios, paths, walls) and 'soft' elements (soil, plants, mulch). Too much hardscape creates heat islands and drainage issues; too much softscape can be high maintenance.</p><h3>The 70/30 Rule</h3><p>We generally aim for a 30% hardscape to 70% softscape ratio for residential gardens to ensure adequate groundwater recharge.</p><h3>Permeable Solutions</h3><p>Using gravel, permeable pavers, or spaced decking allows us to create usable living areas while still allowing water to return to the earth.</p>"
+    "excerpt": "A deep dive into the ratio of paved surfaces to living greenery for optimal drainage.",
+    "content": "A healthy garden needs a balance between 'hard' and 'soft' elements."
   },
   {
     "id": 3,
     "category": "architecture",
-    "layout": "card",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA50txwmVeUv5iS3HSOnANNvoqSmqOdQnwvSqGX7Xo-tHTpDTfDxn7al4GYKOevsXmJnWJgJIxpONJm2vDNli8OlPKoFDBAEJGdGmvJWRDvqzIzG0lxYQsEQdSvnKymIRz6_YX6Yzc_TTknK3QDM4eroWrlRC9BRtk2mIQi29J7EHd2-6YmrOp9iRng5wq1x6g_H1Y9kHLOSSnfCV5rna5ppUkVSrEQzMcKlIYYNhJyldRJbqn6n1plUT29vgQF3rPTV0RjK3CbIHM",
+    "image": "https://images.unsplash.com/photo-1598902108854-10e335adac99?q=80&w=800",
     "date": "May 22, 2023",
     "readTime": "4 min read",
     "title": "Integrating Water Features",
-    "excerpt": "From koi ponds to modern fountains, how water brings tranquility to architectural landscapes.",
-    "content": "<h3>The Sound of Silence</h3><p>Water features are often added not for their look, but for their sound. The gentle trickle of a fountain can mask urban noise and create a sanctuary.</p><h3>Modern Water Tables</h3><p>Corten steel water tables are a favorite in our designs. They provide a reflective surface that mirrors the sky and surrounding foliage.</p><h3>Maintenance Considerations</h3><p>We always design with maintenance in mind—auto-fill valves, hidden filtration systems, and easy-clean basins are standard.</p>"
+    "excerpt": "From koi ponds to modern fountains, how water brings tranquility to landscapes.",
+    "content": "Water features mask urban noise and create a sanctuary."
   },
   {
     "id": 4,
-    "category": "sod",
-    "layout": "horizontal",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB2uU4G_4ZpbUhs1oJnwgR05csAXNHCcdn3HXJYuXkiM55_dibquC4bydzKAc_W6gGUAaUDVx45B9HubbgywgrYnIlDCz7DxDzJtEBecLrzC9IaaR-9WfvljV3dfOpfZ00Y_dA5rDlUY0U9psfuyK_zLLrmnHrf_On7RufYfk8fPdqwgAtoLrzxL1uWyalm_MasG-TKXN6OAEmaJvxMD3aDiA_rHNKBxZdZvT2hSR6hfloMgbi-beBuVej66-kCzIkboY8WgfDIsWg",
-    "date": "June 10, 2023",
-    "title": "Choosing the Right Grass Type",
-    "excerpt": "Bermuda vs. Zoysia: Making the right choice for your soil acidity and sunlight exposure.",
-    "content": "<h3>Understanding Your Yard</h3><p>Before choosing sod, we analyze sunlight hours and soil pH. Some grasses thrive in shade; others need full sun.</p><h3>Warm Season Grasses</h3><p><strong>Bermuda:</strong> Durable, drought-tolerant, loves sun.<br><strong>Zoysia:</strong> Dense, soft, tolerates some shade, luxurious feel.</p><h3>Cool Season Grasses</h3><p><strong>Fescue:</strong> Stays green year-round in milder climates but requires more water in summer heat.</p>"
+    "category": "architecture",
+    "image": "https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?q=80&w=800",
+    "date": "June 02, 2023",
+    "readTime": "6 min read",
+    "title": "The Geometry of Greenery",
+    "excerpt": "Using calculated patterns to create visual harmony in large estates.",
+    "content": "Geometry provides the framework for nature to flourish."
   },
   {
     "id": 5,
     "category": "sod",
-    "layout": "horizontal",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA88_yFp8y1MTSzm_hwwVRt0cCtzzKjwZq2S-noEa-75AM9N1F36oaDVN1mLnV0FHtK9_ltG0fU4jd9C8RjBNM4Lop3xnpPBmEWixxf1EjrOFjaaEjhfz9yZoXQAGrTna8UQIsczpOkDBU0J3UT2CQmCNoU6QqBjZ9zGFuGiF7FEJG7dOK-YhyDTpRt8MLs3mTPekcRuInDGCwsblBdxWeoAwK6AsfU9QHf01CjVJRciAYLg2WXKlIvxf2YC2mXQKhOCZvVcojTR74",
-    "date": "June 15, 2023",
-    "title": "Post-Installation Care Guide",
-    "excerpt": "Critical watering schedules for the first two weeks to ensure successful root establishment.",
-    "content": "<h3>The First 14 Days</h3><p>Sod is perishable. Water immediately after installation. Keep the soil moist to a depth of 3 inches.</p><h3>Mowing</h3><p>Wait until the grass has rooted—usually 2-3 weeks. Tug on a corner; if it lifts, it's not ready.</p><h3>Fertilization</h3><p>Apply a starter fertilizer after 4 weeks to boost root growth.</p>"
+    "image": "https://davislandscapeky.com/wp-content/uploads/2020/11/install-sod-northern-kentucky-cincinnati-Edited.jpg",
+    "date": "June 10, 2023",
+    "readTime": "4 min read",
+    "title": "Choosing the Right Grass Type",
+    "excerpt": "Bermuda vs. Zoysia: Making the right choice for your soil acidity and sunlight.",
+    "content": "Sunlight and soil pH are the most critical factors in sod success."
   },
   {
     "id": 6,
-    "category": "irrigation",
-    "layout": "compact",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuByY-fslaJai2ySgUmYNaaWLO7EVpNyX0FZgQYlYqAt686NGfHT9iP8zgMiiNR9XHWAuTQemKQN7Wp2WSRKKSBOpNj2JtcQbl8XAQOREULS0vYmQrdOSEgF9h0U5C055raZZ_TX7SNEfGW6eO-QYi5fs33tfl6x5XrTaQ2ccXv8E2A6BuFA3BjrxIt4tjjMATTAGgL6mrqR8kTQv99pg1VGwsowcIj_ADuLJ0RXoPM9K1jicqcsVpNplfIsySrBUQ3elCeYXw0_yv0",
-    "title": "Smart Irrigation Tech",
-    "excerpt": "Using IoT sensors to reduce water waste by up to 40%.",
-    "tag": "Technology",
-    "content": "<h3>Weather-Based Controllers</h3><p>Smart controllers adjust watering schedules based on local weather data. Raining? They skip a cycle.</p><h3>Soil Moisture Sensors</h3><p>These buried sensors tell the system exactly when the soil is dry, preventing over-watering.</p>"
+    "category": "sod",
+    "image": "https://images.unsplash.com/photo-1557234195-bd9f290f0e4d?q=80&w=800",
+    "date": "June 15, 2023",
+    "readTime": "3 min read",
+    "title": "Post-Installation Care Guide",
+    "excerpt": "Critical watering schedules for the first two weeks to ensure successful establishment.",
+    "content": "Sod is perishable; water it immediately after laying."
   },
   {
     "id": 7,
-    "category": "irrigation",
-    "layout": "compact",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDsFCjhBiuA2g2PcB_dnrtKFtnlFrqM7lPj3Vz6MXLkNj9QqOdO8B8tCRcwl6tTQ-Cgrfw13Np38EQ2z5q8AEwHywXxqUd_0R2FJZUL79eZ6aRC-ETOZK-im_PF1I09NCPKIptf0Iqn1vmbVY5yktzDnEOEXdquoZZ_SWc1rNyvtmZ7c7jgNDyGj_VVfE8h7g_M9iAVUcgCUnfqxLcWIiaGVkI49M8N17q1jrwD3G_FksCkUN4YJYuKazCSIZyesJEzC8TuSZ_iVX4",
-    "title": "Drip vs. Spray",
-    "excerpt": "Why drip systems are superior for flower beds and shrubs.",
-    "tag": "Efficiency",
-    "content": "<h3>Targeted Delivery</h3><p>Drip irrigation delivers water directly to the plant's base, minimizing evaporation and disease on leaves.</p><h3>Water Consumption</h3><p>Uses significantly less water than spray heads, which lose much to wind drift.</p>"
+    "category": "sod",
+    "image": "https://gvt.net/wp-content/uploads/2022/02/tina-soil-prep-yard-sodding.jpg",
+    "date": "June 20, 2023",
+    "readTime": "5 min read",
+    "title": "Sod Prep: Soil Matters",
+    "excerpt": "Why tilling and nutrient enrichment are non-negotiable for a perfect lawn.",
+    "content": "A beautiful lawn starts six inches below the surface."
   },
   {
     "id": 8,
-    "category": "irrigation",
-    "layout": "compact",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDnZZ0uDR3F6kd78TsrqadU3O1OXHtOzw2gIJaaId8SeZeVk6DqvUZZknduwyRhFf8j0ouTO16UASVutkHwbzQt0onC712SuHt64ULHGuSbvfoikqXL7wKwNv7VKyn-38uFQhD7pC1bMCN5mk8MmjPyEagGdM_akQmK7VQ2oxFj_1HvC738HtD7wpkUAks4pf7oep4HTxBTYUpMuPIhQWH7kmsJXbkuCOsTPzRx1HJ2nWf8UlD_KZN9Rza9_MgD3QItZX4F1hwGNOA",
-    "title": "Winterization",
-    "excerpt": "Protecting your pipes from freezing temperatures.",
-    "tag": "Maintenance",
-    "content": "<h3>Blow-Out Method</h3><p>We use compressed air to force all water out of the lines before the first freeze.</p><h3>Backflow Prevention</h3><p>Insulating the backflow preventer is crucial to avoiding costly plumbing repairs.</p>"
+    "category": "sod",
+    "image": "https://www.bhg.com/thmb/1ymb8yz2C4KXdVu5widAcfpX7Wo=/1650x0/filters:no_upscale():strip_icc()/use-rake-loosen-dead-layers-lawn-53172a50-2a86f19b1b7047f082795ff586e54912.jpg",
+    "date": "July 01, 2023",
+    "readTime": "4 min read",
+    "title": "Repairing Patchy Lawns",
+    "excerpt": "When to overseed and when to replace with fresh premium sod.",
+    "content": "Sometimes a fresh start is more efficient than years of patching."
   },
   {
     "id": 9,
-    "category": "luxury",
-    "layout": "featured",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAm8qpdg4m9BDVJnFSeiadvz1MUcJlTEQt0JOYutvh0pSoHuWFrAgZQWfHcI_R3IngrDyWMLCMstSnSHG9-v6-M3ztKWxFiA4CWzquZFsmHkTawJXpedxx1i8FbmbA8m1in0Qe0LH05cEd2sKUG__WGvHANuYhF-2BsG1C4k-qlV0XowJE4igYjVvGwNpOYGrhkg9i_D2xswxmRdZda94gT1b97PJh9V0G-OnN0eSnsyOB5jF-VpJzRb_qbdh73x74Gfz5J8TZ5fLE",
-    "badge": "Featured",
-    "subMeta": "Design Masterclass",
-    "title": "Creating Resort-Style Outdoor Living Spaces",
-    "excerpt": "Our approach to designing private retreats that rival 5-star hotels, featuring infinity pools, outdoor kitchens, and private grottos.",
-    "content": "<h3>The Staycation Revolution</h3><p>More clients are investing in making their home the ultimate destination. We combine pools, spas, pavilions, and outdoor kitchens into cohesive entertainment zones.</p><h3>Infinite Edges</h3><p>Infinity pools create a seamless visual link between the water and the horizon, elevating the luxury aesthetic.</p><h3>The Outdoor Kitchen</h3><p>Beyond a grill: pizza ovens, kegerators, ice makers, and full sinks turn the patio into a chef's kitchen.</p>"
+    "category": "lawn",
+    "image": "https://pristinelandscapingandlighting.com/wp-content/uploads/2024/05/Lawn-Mowing.jpg",
+    "date": "July 12, 2023",
+    "readTime": "4 min read",
+    "title": "Precision Mowing Techniques",
+    "excerpt": "How blade height and direction impact root health and lawn aesthetics.",
+    "content": "Never cut more than one-third of the grass blade at once."
   },
   {
     "id": 10,
-    "category": "import",
-    "layout": "list",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBaMaLTZh-HwsqqkRnAGGNhh_N_mro91MMHcGfX0Kw5uNuvU7QXNwEUwEZxEaCSxIsFV_4A5p6gmuSoRKip8YTDnWB1v_KH_9SeZ7i40la-EtCEKsAlzuVPKb640r-akAQBIJtVR9neUM_BEykkB6nrm6SOvNf5LwD2Mfs-xljBudbtl93RMasezusqxrYfrE5OuhoIuGY2-XYEy0wX05MzaVPmS40o_R1ycmkZrWPNvA6gPhRNwmGJSskY9GLREOl8hI0IN38_DUs",
-    "title": "Sourcing Japanese Maples",
-    "excerpt": "Navigating international regulations to bring authentic specimen trees to your estate.",
-    "content": "<h3>Authenticity Matters</h3><p>We work with specialized nurseries in Japan to select trees with specific sculptural forms.</p><h3>Quarantine & Care</h3><p>Imported trees undergo rigorous quarantine. We manage the entire acclimation process to ensure survival in local soil.</p>"
+    "category": "lawn",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?q=80&w=800",
+    "date": "July 25, 2023",
+    "readTime": "5 min read",
+    "title": "Seasonal Fertilization Cycles",
+    "excerpt": "Tailoring nutrient delivery to the specific growth stages of your lawn.",
+    "content": "Lawns are hungry at different times of the year."
   },
   {
     "id": 11,
+    "category": "lawn",
+    "image": "https://www.rolawn.co.uk/wp-content/uploads/2022/09/Chafer-Grub-under-lawn-300-x-210.jpg",
+    "date": "August 05, 2023",
+    "readTime": "3 min read",
+    "title": "Dealing with Lawn Pests",
+    "excerpt": "Identifying and treating common grubs and insects without harming your pets.",
+    "content": "Eco-friendly pest management is safer and often more effective."
+  },
+  {
+    "id": 12,
+    "category": "lawn",
+    "image": "https://images.unsplash.com/photo-1495107334409-b8d99f1db7b7?q=80&w=800",
+    "date": "August 15, 2023",
+    "readTime": "6 min read",
+    "title": "Aeration and Overseeding",
+    "excerpt": "The dynamic duo for reviving tired, compacted estate lawns.",
+    "content": "Let your lawn breathe to encourage deep root growth."
+  },
+  {
+    "id": 13,
+    "category": "irrigation",
+    "image": "https://texasrainmakers.com/wp-content/uploads/2022/08/lawn-sprinkler-in-action.webp",
+    "date": "August 28, 2023",
+    "readTime": "5 min read",
+    "title": "Smart Irrigation Tech",
+    "excerpt": "Using IoT sensors to reduce water waste by up to 40%.",
+    "content": "Weather-based controllers are the brain of a modern garden."
+  },
+  {
+    "id": 14,
+    "category": "irrigation",
+    "image": "https://www.hebbevufresh.com/cdn/shop/articles/stakedrippers544_650x434_0.webp?v=1744195706",
+    "date": "September 10, 2023",
+    "readTime": "4 min read",
+    "title": "Drip vs. Spray Systems",
+    "excerpt": "Why targeted delivery is superior for delicate flower beds.",
+    "content": "Drip irrigation puts water exactly where it's needed: the roots."
+  },
+  {
+    "id": 15,
+    "category": "irrigation",
+    "image": "https://images.unsplash.com/photo-1615811361523-6bd03d7748e7?q=80&w=800",
+    "date": "September 22, 2023",
+    "readTime": "3 min read",
+    "title": "Winterizing Your Pipes",
+    "excerpt": "Essential steps to prevent freezing damage in your structural plumbing.",
+    "content": "Blow-outs are the only way to ensure 100% protection."
+  },
+  {
+    "id": 16,
+    "category": "irrigation",
+    "image": "https://reticulationperth.com/wp-content/uploads/2017/03/bestirrigationsystem.jpg",
+    "date": "October 01, 2023",
+    "readTime": "5 min read",
+    "title": "Water Conservation Strategies",
+    "excerpt": "Designing landscapes that thrive on minimal supplemental water.",
+    "content": "Xeriscaping doesn't have to mean just rocks and cacti."
+  },
+  {
+    "id": 17,
+    "category": "terrace",
+    "image": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=800",
+    "date": "October 12, 2023",
+    "readTime": "6 min read",
+    "title": "Choosing Natural Stone",
+    "excerpt": "Slate vs. Limestone: Selecting the right material for your terrace.",
+    "content": "The stone you choose dictates the temperature of your patio."
+  },
+  {
+    "id": 18,
+    "category": "terrace",
+    "image": "https://images.trex.com/is/image/trexcompany/trn-lin-texas-010-ja-enh-railing-wt-sitting-area-wide-high-angle?qlt=85&wid=1024&ts=1722369717791&dpr=off",
+    "date": "October 25, 2023",
+    "readTime": "8 min read",
+    "title": "Elevated Deck Design",
+    "excerpt": "Creating seamless transitions between indoor and outdoor luxury zones.",
+    "content": "The transition should feel like a continuation of the living room."
+  },
+  {
+    "id": 19,
+    "category": "terrace",
+    "image": "https://images.unsplash.com/photo-1527030280862-64139fba04ca?q=80&w=800",
+    "date": "November 05, 2023",
+    "readTime": "5 min read",
+    "title": "Mastering Outdoor Levels",
+    "excerpt": "Using terracing to tame steep slopes and create usable estate space.",
+    "content": "Multi-level gardens offer distinct atmospheres for entertainment."
+  },
+  {
+    "id": 20,
+    "category": "terrace",
+    "image": "https://images.unsplash.com/photo-1558661091-5cc1b247fbdc?q=80&w=800",
+    "date": "November 15, 2023",
+    "readTime": "4 min read",
+    "title": "The Perfect Patio Layout",
+    "excerpt": "Furniture grouping and flow patterns for the modern terrace.",
+    "content": "Design for the way you actually live, not just for looks."
+  },
+  {
+    "id": 21,
+    "category": "lighting",
+    "image": "https://www.robertlandscapes.com/wp-content/uploads/2023/07/333-d.jpg",
+    "date": "November 28, 2023",
+    "readTime": "5 min read",
+    "title": "The Art of Moonlighting",
+    "excerpt": "Placing fixtures high in trees to mimic the soft glow of a full moon.",
+    "content": "Moonlighting creates a magical, natural evening ambiance."
+  },
+  {
+    "id": 22,
+    "category": "lighting",
+    "image": "https://cdn.mos.cms.futurecdn.net/pD4kqHS2sZTk4ZZS6KGc4E.jpg",
+    "date": "December 05, 2023",
+    "readTime": "4 min read",
+    "title": "Pathway Safety & Style",
+    "excerpt": "Low-voltage solutions that highlight architecture without glare.",
+    "content": "See the light, not the fixture."
+  },
+  {
+    "id": 23,
+    "category": "lighting",
+    "image": "https://www.johncullenlighting.com/wp-content/uploads/2023/09/Park-House-Osada-Images-13-copy.jpg",
+    "date": "December 15, 2023",
+    "readTime": "4 min read",
+    "title": "Architectural Uplighting",
+    "excerpt": "Highlighting your estate's facade and ornamental trees after dark.",
+    "content": "Uplighting adds drama and depth to the landscape."
+  },
+  {
+    "id": 24,
+    "category": "lighting",
+    "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?q=80&w=800",
+    "date": "December 22, 2023",
+    "readTime": "6 min read",
+    "title": "Smart Lighting Control",
+    "excerpt": "Integrating garden illumination with your smart home ecosystem.",
+    "content": "Control your entire estate's mood from your mobile device."
+  },
+  {
+    "id": 25,
+    "category": "maintenance",
+    "image": "https://images.unsplash.com/photo-1585938389612-a552a28d6914?q=80&w=800",
+    "date": "January 05, 2024",
+    "readTime": "5 min read",
+    "title": "Winter Pruning Guide",
+    "excerpt": "Why the dormant season is the best time for structural tree care.",
+    "content": "Clean cuts in winter prevent spring disease infections."
+  },
+  {
+    "id": 26,
+    "category": "maintenance",
+    "image": "https://www.startupdonut.co.uk/sites/default/files/production%20image/gardenservices.jpg",
+    "date": "January 15, 2024",
+    "readTime": "4 min read",
+    "title": "Spring Prep Checklist",
+    "excerpt": "Getting ahead of the growing season with soil testing and cleanup.",
+    "content": "The foundations of summer beauty are laid in early spring."
+  },
+  {
+    "id": 27,
+    "category": "maintenance",
+    "image": "https://www.ugaoo.com/cdn/shop/articles/d411a14006_3d31861e-e3d2-4d17-94b2-0de6fbf7681a.jpg?v=1698835017",
+    "date": "January 25, 2024",
+    "readTime": "6 min read",
+    "title": "Organic Soil Enrichment",
+    "excerpt": "Moving beyond synthetic fertilizers for long-term plant health.",
+    "content": "Feed the soil, and the soil will feed the plants."
+  },
+  {
+    "id": 28,
+    "category": "maintenance",
+    "image": "https://images.unsplash.com/photo-1621259182978-f09e5e2ca9da?q=80&w=800",
+    "date": "February 01, 2024",
+    "readTime": "5 min read",
+    "title": "Watering via Seasons",
+    "excerpt": "Adjusting your schedule as temperatures rise and rains decrease.",
+    "content": "Over-watering is just as dangerous as under-watering."
+  },
+  {
+    "id": 29,
+    "category": "hardscaping",
+    "image": "https://summitlandscapeinc.com/wp-content/uploads/2021/11/DSC04265-2048x1152-1.jpg",
+    "date": "February 12, 2024",
+    "readTime": "7 min read",
+    "title": "The Strength of Retaining Walls",
+    "excerpt": "Structural engineering meets organic beauty in heavy hardscaping.",
+    "content": "Walls shouldn't just hold earth; they should define space."
+  },
+  {
+    "id": 30,
+    "category": "hardscaping",
+    "image": "https://thesodfather.ca/wp-content/uploads/2025/03/What_Is_Hardscaping_0001.jpg",
+    "date": "February 22, 2024",
+    "readTime": "6 min read",
+    "title": "Flagstone Flow",
+    "excerpt": "Designing organic walkways that lead the eye through the estate.",
+    "content": "Walkways are the veins of the garden."
+  },
+  {
+    "id": 31,
+    "category": "hardscaping",
+    "image": "https://www.hightechlandscapes.com/wp-content/uploads/2023/03/hardscaping.jpg",
+    "date": "March 05, 2024",
+    "readTime": "5 min read",
+    "title": "Gravel vs. Pavers",
+    "excerpt": "A cost and maintenance comparison for private estate driveways.",
+    "content": "Choose the material that matches the architectural voice of the home."
+  },
+  {
+    "id": 32,
+    "category": "hardscaping",
+    "image": "https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?q=80&w=800",
+    "date": "March 15, 2024",
+    "readTime": "4 min read",
+    "title": "Bespoke Fire Features",
+    "excerpt": "Creating the ultimate evening focal point with custom stone hearths.",
+    "content": "Fire brings people together long after the sun goes down."
+  },
+  {
+    "id": 33,
+    "category": "decorative",
+    "image": "https://melissamorton.co.uk/wp-content/uploads/2021/01/IRL2302-2-2000px-WM-Wellbeing-1030x555.jpg",
+    "date": "March 28, 2024",
+    "readTime": "4 min read",
+    "title": "The Impact of Garden Sculpture",
+    "excerpt": "Placing artistic focal points to anchor your landscape design.",
+    "content": "Art in the garden provides a moment for reflection."
+  },
+  {
+    "id": 34,
+    "category": "decorative",
+    "image": "https://www.backyardunlimited.com/wp-content/uploads/2019/08/imager-3-44.jpeg",
+    "date": "April 05, 2024",
+    "readTime": "5 min read",
+    "title": "Pergolas & Pavilions",
+    "excerpt": "Designing elegant structures for shaded outdoor entertainment.",
+    "content": "Structures provide the 'walls' of your outdoor room."
+  },
+  {
+    "id": 35,
+    "category": "decorative",
+    "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=800",
+    "date": "April 15, 2024",
+    "readTime": "3 min read",
+    "title": "Choosing Large Containers",
+    "excerpt": "Using oversized planters to frame entrances and define zones.",
+    "content": "Size matters when it comes to visual impact."
+  },
+  {
+    "id": 36,
+    "category": "decorative",
+    "image": "https://images.unsplash.com/photo-1582234372722-50d7ccc30ebd?q=80&w=800",
+    "date": "April 22, 2024",
+    "readTime": "4 min read",
+    "title": "Ornamental Lattice Work",
+    "excerpt": "Adding vertical interest and privacy with custom wood features.",
+    "content": "Greenery needs a structure to climb."
+  },
+  {
+    "id": 37,
+    "category": "luxury",
+    "image": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=800",
+    "date": "May 02, 2024",
+    "readTime": "8 min read",
+    "title": "The Smart Estate",
+    "excerpt": "Integrating automation into every facet of luxury landscape management.",
+    "content": "Luxury is having a garden that looks after itself."
+  },
+  {
+    "id": 38,
+    "category": "luxury",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/14/44/31/a6/private-infinity-pool.jpg",
+    "date": "May 12, 2024",
+    "readTime": "6 min read",
+    "title": "Private Infinity Pools",
+    "excerpt": "Engineering the perfect aquatic retreat for your home.",
+    "content": "The horizon is your only limit."
+  },
+  {
+    "id": 39,
+    "category": "luxury",
+    "image": "https://i.pinimg.com/736x/b1/2c/96/b12c964cbe12de368b12096b5f3d6fa9.jpg",
+    "date": "May 22, 2024",
+    "readTime": "5 min read",
+    "title": "Outdoor Spa Sanctuaries",
+    "excerpt": "Combining heat, water, and plants for the ultimate wellness zone.",
+    "content": "Wellness begins in your own backyard."
+  },
+  {
+    "id": 40,
+    "category": "luxury",
+    "image": "https://images.unsplash.com/photo-1591857177580-dc329afca036?q=80&w=800",
+    "date": "June 05, 2024",
+    "readTime": "7 min read",
+    "title": "Concierge Landscape Care",
+    "excerpt": "A personalized approach to managing world-class estate grounds.",
+    "content": "We don't just maintain; we curate."
+  },
+  {
+    "id": 41,
     "category": "import",
-    "layout": "list",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDRtoEV9JDOIWoFYqBaZslBaR6eM7Qr_OoMIj5O6K0se4Ck2HWVMimCjPD4zPc9p1ZUpKoS8IHtldmKSX63HVDt7qEgthy8QHX-C-KS0RUbtoy17ShF2Vnasenw3yPkjy7ixCYe-tpW0gw6bgBMm2uqSUMGTzVEMQFVv7Dmm5BmF8S2nxXpzUvtdZIe5C4v7D3G9kdv9DYWzZCUVUqyPOK_oKUL-K9_VBhY85ArVMAq6HfKo-7pHHV4ZNSLUaHvrIZNJBfDMP1heu4",
-    "title": "Mediterranean Olive Trees",
-    "excerpt": "Acclimatizing ancient olive trees for successful transplantation in diverse climates.",
-    "content": "<h3>Ancient Beauty</h3><p>Olive trees bring a sense of history and Mediterranean elegance. Their gnarled trunks are living sculptures.</p><h3>Climate Adaptation</h3><p>We prepare the root ball and soil amendments specifically to mimic their native arid environment while ensuring they can handle local humidity.</p>"
+    "image": "https://www.lazysusanfurniture.co.uk/cdn/shop/articles/0c4843eeed83f756ab14442b8c8b93a2.jpg?v=1725628999",
+    "date": "June 15, 2024",
+    "readTime": "6 min read",
+    "title": "Sourcing Mature Specimens",
+    "excerpt": "Why patient sourcing for 50-year-old trees is worth the investment.",
+    "content": "Time is the ultimate luxury in a garden."
+  },
+  {
+    "id": 42,
+    "category": "import",
+    "image": "https://www.provenwinners.com/sites/provenwinners.com/files/2019/articles/heart_of_the_jungle_in_water_il_0.jpg",
+    "date": "June 25, 2024",
+    "readTime": "5 min read",
+    "title": "The Rare Plant Pursuit",
+    "excerpt": "Navigating the global market for authentic and rare botanicals.",
+    "content": "Exclusivity begins with the seed."
+  },
+  {
+    "id": 43,
+    "category": "import",
+    "image": "https://www.ifplants.eu/wp-content/uploads/2021/03/3-1024x1024.jpeg",
+    "date": "July 05, 2024",
+    "readTime": "4 min read",
+    "title": "Import Logistics",
+    "excerpt": "A look behind the scenes of global plant transportation.",
+    "content": "Logistics are the unsung hero of exotic landscapes."
+  },
+  {
+    "id": 44,
+    "category": "import",
+    "image": "https://images.unsplash.com/photo-1501004318641-72e5451916tc?q=80&w=800",
+    "date": "July 12, 2024",
+    "readTime": "5 min read",
+    "title": "Acclimatization Success",
+    "excerpt": "Helping international specimens thrive in local estate conditions.",
+    "content": "Acclimation is as much science as it is art."
   }
 ]
