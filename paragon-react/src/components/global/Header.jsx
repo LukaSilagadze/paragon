@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { routes } from '../../constants/routes'
 
 export default function Header() {
   return (
@@ -11,18 +13,18 @@ export default function Header() {
             className="logo-icon"
           />
           <div className="logo">
-            <a href="index.html">PARAGON</a>
+            <Link to={routes.Home}>PARAGON</Link>
             <span>Landscape for Life</span>
           </div>
         </div>
         <nav className="main-nav">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><Link to={routes.Home}>Home</Link></li>
+            <li><Link to={routes.About}>About</Link></li>
+            <li><Link to={routes.Portfolio}>Portfolio</Link></li>
+            <li><Link to={routes.Services}>Services</Link></li>
+            <li><Link to={routes.Blog}>Blog</Link></li>
+            <li><Link to={routes.Contact}>Contact</Link></li>
           </ul>
         </nav>
         <button className="hamburger" id="hamburger">
