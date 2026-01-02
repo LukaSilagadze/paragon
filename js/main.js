@@ -203,4 +203,132 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+  // Hero Video Slider
+  function initHeroSlider() {
+    const videoElement = document.getElementById("hero-video");
+    const prevBtn = document.getElementById("hero-prev");
+    const nextBtn = document.getElementById("hero-next");
+    const dotsContainer = document.getElementById("hero-dots");
+
+    if (!videoElement || !prevBtn || !nextBtn || !dotsContainer) return;
+
+    // Video slides configuration
+    // Currently using the same video, but ready for more unique inputs
+    const slides = [
+      {
+        video: "assets/videos/hero_vid.mp4",
+        poster: "assets/images/hero-poster.jpg",
+        title: "Landscape is not just about plants",
+        subtitle:
+          "it's about creating a grand entrance that speaks before you even step inside...",
+      },
+      {
+        video: "assets/videos/hero_vid3.mp4",
+        poster: "assets/images/hero-poster.jpg",
+        title: "Sustainable Living Spaces",
+        subtitle: "Harmony with nature for a better tomorrow...",
+      },
+      {
+        video: "assets/videos/hero_vid4.mp4",
+        poster: "assets/images/hero-poster.jpg",
+        title: "Sustainable Living Spaces",
+        subtitle: "Harmony with nature for a better tomorrow...",
+      },
+      {
+        video: "assets/videos/hero_vid5.mp4",
+        poster: "assets/images/hero-poster.jpg",
+        title: "Sustainable Living Spaces",
+        subtitle: "Harmony with nature for a better tomorrow...",
+      },
+    ];
+
+    let currentSlide = 0;
+    let slideInterval;
+    const SLIDE_DURATION = 5000; // 5 seconds
+
+    // Initialize dots
+    slides.forEach((_, index) => {
+      const dot = document.createElement("div");
+      dot.classList.add("slider-dot");
+      if (index === 0) dot.classList.add("active");
+      dot.addEventListener("click", () => goToSlide(index));
+      dotsContainer.appendChild(dot);
+    });
+
+    const dots = document.querySelectorAll(".slider-dot");
+
+    function updateSlideContent(index) {
+      const slide = slides[index];
+      const videoSource = videoElement.querySelector("source");
+
+      // Fade out
+      videoElement.classList.add("fade-out");
+
+      // Wait for fade out to complete before changing video
+      setTimeout(() => {
+        // Update video
+        videoElement.poster = slide.poster;
+        videoSource.src = slide.video;
+        videoElement.load();
+
+        const playPromise = videoElement.play();
+        if (playPromise !== undefined) {
+          playPromise
+            .then(() => {
+              // Fade back in only after play starts
+              videoElement.classList.remove("fade-out");
+            })
+            .catch((e) => {
+              console.log("Auto-play prevented", e);
+              // Ensure we fade back in even if autoplay fails (e.g. user interaction needed)
+              videoElement.classList.remove("fade-out");
+            });
+        }
+      }, 500); // 500ms matches CSS transition duration
+      // Text updates removed to keep content static
+
+      // Update dots
+      dots.forEach((dot, i) => {
+        dot.classList.toggle("active", i === index);
+      });
+    }
+
+    function goToSlide(index) {
+      currentSlide = index;
+      updateSlideContent(currentSlide);
+      resetInterval();
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      updateSlideContent(currentSlide);
+    }
+
+    function prevSlide() {
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      updateSlideContent(currentSlide);
+    }
+
+    function resetInterval() {
+      clearInterval(slideInterval);
+      slideInterval = setInterval(nextSlide, SLIDE_DURATION);
+    }
+
+    // Event listeners
+    nextBtn.addEventListener("click", () => {
+      nextSlide();
+      resetInterval();
+    });
+
+    prevBtn.addEventListener("click", () => {
+      prevSlide();
+      resetInterval();
+    });
+
+    // Start auto-slider
+    resetInterval();
+  }
+
+  initHeroSlider();
 });
