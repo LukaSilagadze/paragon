@@ -644,4 +644,10 @@ body.no-scroll {
   .hamburger.active span {
     background-color: var(--text-color) !important;
   }
+    .footer-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
 }
