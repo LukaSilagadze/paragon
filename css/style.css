@@ -10,11 +10,6 @@
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   --transition: all 0.3s ease;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 html,
 body {
@@ -171,7 +166,8 @@ body.no-scroll {
   background-color: var(--accent-color);
   transition: width 0.3s ease;
 }
-*/ #main-header.scrolled .main-nav a::after {
+
+#main-header.scrolled .main-nav a::after {
   background-color: var(--primary-color);
 }
 
@@ -455,135 +451,6 @@ body.no-scroll {
     opacity: 1;
   }
 }
-/* Responsive Styles */
-@media (min-width: 640px) {
-  .header-content {
-    height: 5rem;
-  }
-
-  .logo-text {
-    display: block;
-  }
-}
-
-/* Responsive Styles */
-@media (min-width: 768px) {
-  .header {
-    padding: 1rem 5rem;
-  }
-
-  .nav-desktop {
-    display: flex;
-  }
-
-  .nav-mobile {
-    display: none;
-  }
-
-  .hero-title {
-    font-size: 3.75rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1.25rem;
-  }
-
-  .philosophy {
-    padding: 6rem 5rem;
-  }
-
-  .philosophy-title {
-    font-size: 2.25rem;
-  }
-
-  .works-header {
-    padding: 1rem 5rem 2.5rem;
-  }
-
-  .project-card {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .project-image {
-    height: 600px;
-  }
-
-  .project-reverse .project-info {
-    order: 1;
-  }
-
-  .project-reverse .project-image {
-    order: 2;
-  }
-
-  .project-info {
-    padding: 6rem;
-  }
-
-  .project-title {
-    font-size: 2.25rem;
-  }
-
-  .services {
-    padding: 6rem 5rem;
-  }
-
-  .services-header {
-    align-items: center;
-    text-align: center;
-  }
-
-  .services-header h2 {
-    font-size: 2.25rem;
-  }
-
-  .services-header p {
-    text-align: center;
-  }
-
-  .services-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .cta-content h2 {
-    font-size: 2.25rem;
-  }
-
-  .footer {
-    padding: 4rem 5rem;
-  }
-
-  .footer-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .footer-col:nth-child(2) {
-    padding-left: 2.5rem;
-  }
-
-  .footer-bottom {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-
-@media (min-width: 1024px) {
-  .hero-title {
-    font-size: 4.5rem;
-  }
-
-  .philosophy-title {
-    font-size: 3rem;
-  }
-
-  .services-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .footer-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
 
 /* Mobile Navigation Styles */
 @media (max-width: 768px) {
@@ -644,7 +511,7 @@ body.no-scroll {
   .hamburger.active span {
     background-color: var(--text-color) !important;
   }
-    .footer-grid {
+  .footer-grid {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
