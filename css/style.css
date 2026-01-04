@@ -40,7 +40,6 @@ body.no-scroll {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
 }
 
-/* Header Styles */
 /* Header */
 #main-header {
   position: fixed;
@@ -135,15 +134,24 @@ body.no-scroll {
     height: 30px;
   }
 }
+.main-nav{
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+.main-links{
+  display: flex;
+  gap: 30px;
+}
+.social-links{
+  display: flex;
+  column-gap: 20px;
+  font-size: 25px;
+}
 .main-nav ul {
   display: flex;
   list-style: none;
 }
-
-.main-nav li {
-  margin-left: 30px;
-}
-
 .main-nav a {
   color: white;
   font-weight: 500;
@@ -151,11 +159,9 @@ body.no-scroll {
   transition: color 0.3s ease;
   text-decoration: none;
 }
-
 #main-header.scrolled .main-nav a {
   color: var(--text-color);
 }
-
 .main-nav a::after {
   content: "";
   position: absolute;
@@ -482,8 +488,10 @@ body.no-scroll {
   .main-nav.active {
     right: 0;
   }
-
-  .main-nav ul {
+  .main-nav{
+    row-gap: 2rem;
+  }
+  .main-links {
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5rem;

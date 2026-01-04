@@ -268,7 +268,6 @@ document.addEventListener("DOMContentLoaded", function () {
       // Wait for fade out to complete before changing video
       setTimeout(() => {
         // Update video
-        videoElement.poster = slide.poster;
         videoSource.src = slide.video;
         videoElement.load();
 
