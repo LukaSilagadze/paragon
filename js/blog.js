@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const showLessBtn = document.createElement("button");
         showLessBtn.className = "btn-pagination btn-show-less";
         showLessBtn.innerHTML = `
-          Show Less <span class="material-symbols-outlined">expand_less</span>
+          <span data-i18n="blog.showLess">Show Less</span> <span class="material-symbols-outlined">expand_less</span>
         `;
         showLessBtn.addEventListener("click", () => {
           postLimits[sectionId] = 3;
@@ -132,13 +132,18 @@ document.addEventListener("DOMContentLoaded", function () {
         const showMoreBtn = document.createElement("button");
         showMoreBtn.className = "btn-pagination btn-show-more";
         showMoreBtn.innerHTML = `
-          Show More <span class="material-symbols-outlined">expand_more</span>
+          <span data-i18n="blog.showMore">Show More</span> <span class="material-symbols-outlined">expand_more</span>
         `;
         showMoreBtn.addEventListener("click", () => {
           postLimits[sectionId] += 3;
           renderSection(sectionId, posts, gridClass, renderFn, isSearch);
         });
         paginationContainer.appendChild(showMoreBtn);
+      }
+      if (window.languageManager) {
+        window.languageManager.applyLanguage(
+          window.languageManager.currentLanguage
+        );
       }
     } else if (paginationContainer) {
       paginationContainer.remove();
@@ -149,6 +154,13 @@ document.addEventListener("DOMContentLoaded", function () {
   function renderCard(post) {
     const article = document.createElement("article");
     article.className = "article-card";
+    const lang = window.languageManager
+      ? window.languageManager.currentLanguage
+      : "en";
+    const title = lang === "ka" ? post.title_ka || post.title : post.title;
+    const excerpt =
+      lang === "ka" ? post.excerpt_ka || post.excerpt : post.excerpt;
+
     article.innerHTML = `
             <div class="article-image">
                 <div class="article-img-bg" style="background-image: url('${post.image}');"></div>
@@ -157,11 +169,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="article-meta">
                     <span>${post.date}</span> • <span>${post.readTime}</span>
                 </div>
-                <h3 class="article-title">${post.title}</h3>
-                <p class="article-excerpt">${post.excerpt}</p>
+                <h3 class="article-title">${title}</h3>
+                <p class="article-excerpt">${excerpt}</p>
                 <div class="article-footer">
                     <a href="article.html?id=${post.id}" class="article-link">
-                        Read Article <span class="material-symbols-outlined">arrow_forward</span>
+                        <span data-i18n="blog.readMore">Read Article</span> <span class="material-symbols-outlined">arrow_forward</span>
                     </a>
                 </div>
             </div>
@@ -229,6 +241,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Optional: Close mobile menu if it was open (handled by main.js usually)
       });
+    });
+  }
+
+  // 5. Language Event Listener
+  if (window.languageManager) {
+    window.addEventListener("languageChanged", (e) => {
+      renderArticles(allArticles, false); // Re-render with new language
     });
   }
 });

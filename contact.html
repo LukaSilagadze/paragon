@@ -47,19 +47,31 @@
             class="logo-icon"
           />
           <div class="logo">
-            <a href="index.html">PARAGON</a>
-            <span>Landscape for Life</span>
+            <a href="index.html" data-i18n="logo.name">PARAGON</a>
+            <span data-i18n="logo.tagline">Landscape for Life</span>
           </div>
         </div>
         <nav class="main-nav">
           <ul class="main-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="about.html" data-i18n="nav.about">About</a></li>
+            <li>
+              <a href="portfolio.html" data-i18n="nav.portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="services.html" data-i18n="nav.services">Services</a>
+            </li>
+            <li><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
+            <li>
+              <a href="contact.html" class="active" data-i18n="nav.contact"
+                >Contact</a
+              >
+            </li>
           </ul>
+          <div class="language-switcher">
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="ka">ქარ</button>
+          </div>
           <ul class="social-links">
             <li>
               <a
@@ -122,7 +134,9 @@
               <div class="info-header">
                 <div class="header-line">
                   <div class="line"></div>
-                  <span class="header-label">Contact Us</span>
+                  <span class="header-label" data-i18n="contact.contactHeader"
+                    >Contact Us</span
+                  >
                 </div>
               </div>
 
@@ -133,9 +147,13 @@
                     <i class="fa-solid fa-phone"></i>
                   </div>
                   <div class="method-content">
-                    <p class="method-label">Phone</p>
+                    <p class="method-label" data-i18n="contact.phoneLabel">
+                      Phone
+                    </p>
                     <p class="method-value">+995 510 00 44 99</p>
-                    <p class="method-note">Mon-Fri, 9am - 6pm PST</p>
+                    <p class="method-note" data-i18n="contact.methodNotePhone">
+                      Mon-Fri, 9am - 6pm PST
+                    </p>
                   </div>
                 </div>
 
@@ -145,9 +163,13 @@
                     <i class="fa-solid fa-envelope"></i>
                   </div>
                   <div class="method-content">
-                    <p class="method-label">Email</p>
+                    <p class="method-label" data-i18n="contact.emailLabel">
+                      Email
+                    </p>
                     <p class="method-value">Info@paragonlandscape.ge</p>
-                    <p class="method-note">For new project inquiries</p>
+                    <p class="method-note" data-i18n="contact.methodNoteEmail">
+                      For new project inquiries
+                    </p>
                   </div>
                 </div>
 
@@ -157,7 +179,9 @@
                     <i class="fa-solid fa-hashtag"></i>
                   </div>
                   <div class="method-content">
-                    <p class="method-label">Our Socials</p>
+                    <p class="method-label" data-i18n="contact.socialsLabel">
+                      Our Socials
+                    </p>
                     <div class="card">
                       <a
                         class="socialContainer socialContainerContactPage containerOne"
@@ -217,13 +241,17 @@
                     <i class="fa-brands fa-whatsapp"></i>
                   </div>
                   <div class="method-content">
-                    <p class="method-label">WhatsApp</p>
+                    <p class="method-label" data-i18n="contact.whatsappLabel">
+                      WhatsApp
+                    </p>
                     <a
                       href="https://wa.me/995510004499"
                       class="chat-button"
                       target="_blank"
                     >
-                      <span>call or chat right now</span>
+                      <span data-i18n="contact.callOrChat"
+                        >call or chat right now</span
+                      >
                       <span class="material-symbols-outlined"
                         >arrow_outward</span
                       >
@@ -249,8 +277,8 @@
                 class="logo-icon"
               />
               <div class="logo">
-                <a href="index.html">PARAGON</a>
-                <span>Landscape for Life</span>
+                <a href="index.html" data-i18n="logo.name">PARAGON</a>
+                <span data-i18n="logo.tagline">Landscape for Life</span>
               </div>
             </div>
             <!-- <div class="line"></div> -->
@@ -258,7 +286,7 @@
           </div>
 
           <div class="footer-col">
-            <h4>Contact Us</h4>
+            <h4 data-i18n="footer.contactUs">Contact Us</h4>
             <div>
               <p style="color: #fff">Info@paragonlandscape.ge</p>
               <p style="color: #fff">+995 510 00 44 99</p>
@@ -266,7 +294,7 @@
           </div>
 
           <div class="footer-social">
-            <h4>Follow Us</h4>
+            <h4 data-i18n="footer.followUs">Follow Us</h4>
             <div class="card">
               <a
                 class="socialContainer containerOne"
@@ -318,15 +346,19 @@
         </div>
 
         <div class="footer-bottom">
-          <p>© 2024 Paragon Landscapes. All rights reserved.</p>
+          <p data-i18n="footer.copyright">
+            © 2024 Paragon Landscapes. All rights reserved.
+          </p>
           <div class="footer-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">Sitemap</a>
+            <a href="#" data-i18n="footer.privacyPolicy">Privacy Policy</a>
+            <a href="#" data-i18n="footer.termsOfService">Terms of Service</a>
+            <a href="#" data-i18n="footer.sitemap">Sitemap</a>
           </div>
         </div>
       </div>
     </footer>
+    <script src="./js/translations.js"></script>
+    <script src="./js/language.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/contact.js"></script>
   </body>
